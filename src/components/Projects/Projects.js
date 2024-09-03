@@ -3,12 +3,20 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import random from '../../Assets/Projects/random-joke.png';
-import emotion from '../../Assets/Projects/emotion.png';
+import tenzies from '../../Assets/Projects/tenzies.png';
 import qr from '../../Assets/Projects/qr.png';
 import passwordGen from '../../Assets/Projects/passwordGen.png';
 import crop from '../../Assets/Projects/crop.png';
 import Snap from '../../Assets/Projects/Snap.png';
 import resturant from '../../Assets/Projects/resturant.png';
+import typing from '../../Assets/Projects/typing.png';
+import randomPicker from '../../Assets/Projects/randomPicker.png';
+import ChromeExtension from '../../Assets/Projects/ChromeExtension.png';
+import ticTacToe from '../../Assets/Projects/tik-tok-tak.png';
+import keep from '../../Assets/Projects/keep.png';
+import meme from '../../Assets/Projects/meme-maker.png'
+import scrollProject from '../../Assets/Projects/scroll.png'
+import mern from '../../Assets/Projects/mern-blog.png'
 
 function Projects() {
 	return (
@@ -46,12 +54,113 @@ function Projects() {
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={tenzies}
+							isBlog={false}
+							title='T E N Z I E S'
+							description='React Implementation This is a web-based version of the classic dice game, Tenzies, built using React. The objective of the game is to roll ten dice until they all show the same number. Players can hold specific dice between rolls to strategically match all dice as quickly as possible.'
+							ghLink='https://github.com/Zahooruddin-dev/Tenzies-REACT'
+							demoLink='https://tenzies-react-phi.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={scrollProject}
+							isBlog={false}
+							title='Scroll Page'
+							description='A simple one page Scroll Web App with useabiltiy in mind.'
+							ghLink='https://github.com/Zahooruddin-dev/Scroll-Page-querySelector-PRACTICE-JS-VANILA--project-future-Reuse'
+							demoLink='https://scroll-one-page-js-vanila-project-future-reuse.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={mern}
+							isBlog={false}
+							title='MERN BLOG APP'
+							description='A simple MERN blog web app for learning'
+							ghLink='https://github.com/Zahooruddin-dev/MERN-Blog'
+							demoLink='https://mern-blog-five-rho.vercel.app/add-blog'
+						/>
+					</Col>
+
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={typing}
+							isBlog={false}
+							title='Typing Website'
+							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
+							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
+							demoLink='https://mizukatype.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={randomPicker}
+							isBlog={false}
+							title='Random Picker'
+							description='A site that I made so we could randomly pick between three choices and not have to think about it.'
+							ghLink='https://github.com/Zahooruddin-dev/Random-picker'
+							demoLink='https://random-picker-five.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={ticTacToe}
+							isBlog={false}
+							title='Tik Tac Toe'
+							description='A simple web app game Tic tac toe which is clean and easily playable on both mobile and PC'
+							ghLink='https://github.com/Zahooruddin-dev/ticktok'
+							demoLink='https://ticktoking.netlify.app/'
+						/>
+					</Col>
+
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={resturant}
 							isBlog={false}
 							title='Resturant-Walk-the-wok'
 							description='An interactive restaurant website designed for online booking and showcasing the unique dining experience at Walk the Wok. Built with JS, the site allows customers to view the menu, make reservations, and explore the ambiance through an engaging interface.'
 							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
 							demoLink='https://walkthewok.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={ChromeExtension}
+							isBlog={false}
+							title='Chrome Extension'
+							description='A input taker and current tab copy extension and storing it in local storage'
+							ghLink='https://github.com/Zahooruddin-dev/Chrome-extenesion'
+							demoLink='https://chrome-extenesion.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={meme}
+							isBlog={false}
+							title='Meme Maker'
+							description='You can genearte meme Images by genearting new pictures and putting top and bottom Text.'
+							ghLink='https://github.com/Zahooruddin-dev/meme-generaor'
+							demoLink='https://meme-generaor.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={keep}
+							isBlog={false}
+							title='K E E P '
+							description='A simple notes app'
+							ghLink='https://github.com/Zahooruddin-dev/GoogleKeepNotes-Vanila-JS-Practice'
+							demoLink='https://google-keep-notes-vanila-js-practice.vercel.app/'
 						/>
 					</Col>
 
