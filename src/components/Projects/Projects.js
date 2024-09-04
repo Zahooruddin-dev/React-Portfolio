@@ -14,9 +14,10 @@ import randomPicker from '../../Assets/Projects/randomPicker.png';
 import ChromeExtension from '../../Assets/Projects/ChromeExtension.png';
 import ticTacToe from '../../Assets/Projects/tik-tok-tak.png';
 import keep from '../../Assets/Projects/keep.png';
-import meme from '../../Assets/Projects/meme-maker.png'
-import scrollProject from '../../Assets/Projects/scroll.png'
-import mern from '../../Assets/Projects/mern-blog.png'
+import meme from '../../Assets/Projects/meme-maker.png';
+import scrollProject from '../../Assets/Projects/scroll.png';
+import mern from '../../Assets/Projects/mern-blog.png';
+import gym from '../../Assets/Projects/gym.png';
 
 function Projects() {
 	return (
@@ -43,6 +44,39 @@ function Projects() {
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={scrollProject}
+							isBlog={false}
+							title='Scroll Page'
+							description='A simple one page Scroll Web App with useabiltiy in mind.'
+							ghLink='https://github.com/Zahooruddin-dev/Scroll-Page-querySelector-PRACTICE-JS-VANILA--project-future-Reuse'
+							demoLink='https://scroll-one-page-js-vanila-project-future-reuse.vercel.app/'
+						/>
+					</Col>
+
+				
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={gym}
+							isBlog={false}
+							title='Mizuka Workout geneartor'
+							description='React web app where you can genearte a workout according to your needs after answering all the questions we need to generate those work outs for you.'
+							ghLink='https://github.com/Zahooruddin-dev/Tenzies-REACT'
+							demoLink='https://tenzies-react-phi.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={typing}
+							isBlog={false}
+							title='Typing Website'
+							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
+							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
+							demoLink='https://mizukatype.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={passwordGen}
 							isBlog={false}
 							title='Password Generator'
@@ -51,6 +85,7 @@ function Projects() {
 							demoLink='https://password-generator-beta-rust-14.vercel.app/'
 						/>
 					</Col>
+
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
@@ -65,35 +100,12 @@ function Projects() {
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={scrollProject}
-							isBlog={false}
-							title='Scroll Page'
-							description='A simple one page Scroll Web App with useabiltiy in mind.'
-							ghLink='https://github.com/Zahooruddin-dev/Scroll-Page-querySelector-PRACTICE-JS-VANILA--project-future-Reuse'
-							demoLink='https://scroll-one-page-js-vanila-project-future-reuse.vercel.app/'
-						/>
-					</Col>
-
-					<Col md={4} className='project-card'>
-						<ProjectCard
 							imgPath={mern}
 							isBlog={false}
 							title='MERN BLOG APP'
 							description='A simple MERN blog web app for learning'
 							ghLink='https://github.com/Zahooruddin-dev/MERN-Blog'
 							demoLink='https://mern-blog-five-rho.vercel.app/add-blog'
-						/>
-					</Col>
-
-
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={typing}
-							isBlog={false}
-							title='Typing Website'
-							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
-							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
-							demoLink='https://mizukatype.vercel.app/'
 						/>
 					</Col>
 
@@ -118,7 +130,6 @@ function Projects() {
 							demoLink='https://ticktoking.netlify.app/'
 						/>
 					</Col>
-
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
