@@ -18,6 +18,7 @@ import meme from '../../Assets/Projects/meme-maker.png';
 import scrollProject from '../../Assets/Projects/scroll.png';
 import mern from '../../Assets/Projects/mern-blog.png';
 import gym from '../../Assets/Projects/gym.png';
+import wiki from '../../Assets/Projects/wiki.png';
 
 function Projects() {
 	return (
@@ -59,8 +60,8 @@ function Projects() {
 							isBlog={false}
 							title='Mizuka Workout geneartor'
 							description='React web app where you can genearte a workout according to your needs after answering all the questions we need to generate those work outs for you.'
-							ghLink='https://github.com/Zahooruddin-dev/Tenzies-REACT'
-							demoLink='https://tenzies-react-phi.vercel.app/'
+							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Gym-React'
+							demoLink='https://mizuka-gym-react.vercel.app/'
 						/>
 					</Col>
 
@@ -72,6 +73,16 @@ function Projects() {
 							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
 							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
 							demoLink='https://mizukatype.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={wiki}
+							isBlog={false}
+							title='Wikipedia Search'
+							description='A site made using wikipedia API to search Wikipedia articles and stuff easily'
+							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
+							demoLink='https://vercel.com/zahooruddindevs-projects/wikipedia-search-js-vanila'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
