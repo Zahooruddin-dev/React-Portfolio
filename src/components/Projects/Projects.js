@@ -106,6 +106,28 @@ function Projects() {
 							demoLink='https://tenzies-react-phi.vercel.app/'
 						/>
 					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={qr}
+							isBlog={false}
+							title='QR Code Generator'
+							description='QR Generator
+              A user-friendly web application for generating QR codes quickly and efficiently, built using React and popular libraries. Customize your QR codes with various options and download them for easy sharing.'
+							ghLink='https://github.com/Zahooruddin-dev/QR-Generator-using-libraries-REACT'
+							demoLink='https://qr-mizuka.vercel.app/'
+						/>
+					</Col>
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={random}
+							isBlog={false}
+							title='Random Joke Generator'
+							description='A fun and interactive web application for generating random jokes. Users can fetch jokes, copy them to the clipboard, view a history of recent jokes, and share them via the Web Share API. The app also includes a theme toggle for light and dark modes.'
+							ghLink='https://github.com/Zahooruddin-dev/Random-joke-'
+							demoLink='https://joke-gamma.vercel.app/'
+						/>
+					</Col>
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
@@ -196,28 +218,7 @@ function Projects() {
 						/>
 					</Col>
 
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={qr}
-							isBlog={false}
-							title='QR Code Generator'
-							description='QR Generator
-              A user-friendly web application for generating QR codes quickly and efficiently, built using React and popular libraries. Customize your QR codes with various options and download them for easy sharing.'
-							ghLink='https://github.com/Zahooruddin-dev/QR-Generator-using-libraries-REACT'
-							demoLink='https://qr-mizuka.vercel.app/'
-						/>
-					</Col>
-
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={random}
-							isBlog={false}
-							title='Random Joke Generator'
-							description='A fun and interactive web application for generating random jokes. Users can fetch jokes, copy them to the clipboard, view a history of recent jokes, and share them via the Web Share API. The app also includes a theme toggle for light and dark modes.'
-							ghLink='https://github.com/Zahooruddin-dev/Random-joke-'
-							demoLink='https://joke-gamma.vercel.app/'
-						/>
-					</Col>
+			
 				</Row>
 			</Container>
 		</Container>
