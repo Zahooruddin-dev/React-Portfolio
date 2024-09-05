@@ -43,7 +43,7 @@ function Projects() {
 						/>
 					</Col>
 
-					<Col md={4} className='project-card'>
+				{/*	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={scrollProject}
 							isBlog={false}
@@ -52,7 +52,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Scroll-Page-querySelector-PRACTICE-JS-VANILA--project-future-Reuse'
 							demoLink='https://scroll-one-page-js-vanila-project-future-reuse.vercel.app/'
 						/>
-					</Col>
+					</Col>*/}
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
@@ -106,6 +106,7 @@ function Projects() {
 							demoLink='https://tenzies-react-phi.vercel.app/'
 						/>
 					</Col>
+
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={qr}
@@ -129,7 +130,7 @@ function Projects() {
 						/>
 					</Col>
 
-					<Col md={4} className='project-card'>
+				{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mern}
 							isBlog={false}
@@ -138,9 +139,9 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/MERN-Blog'
 							demoLink='https://mern-blog-five-rho.vercel.app/add-blog'
 						/>
-					</Col>
+					</Col> */}
 
-					<Col md={4} className='project-card'>
+				{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={randomPicker}
 							isBlog={false}
@@ -149,7 +150,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Random-picker'
 							demoLink='https://random-picker-five.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
@@ -173,7 +174,7 @@ function Projects() {
 						/>
 					</Col>
 
-					<Col md={4} className='project-card'>
+				{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={ChromeExtension}
 							isBlog={false}
@@ -182,8 +183,8 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Chrome-extenesion'
 							demoLink='https://chrome-extenesion.vercel.app/'
 						/>
-					</Col>
-
+					</Col> */}
+{/* 
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={meme}
@@ -193,9 +194,9 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/meme-generaor'
 							demoLink='https://meme-generaor.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 
-					<Col md={4} className='project-card'>
+					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={keep}
 							isBlog={false}
@@ -205,7 +206,7 @@ function Projects() {
 							demoLink='https://google-keep-notes-vanila-js-practice.vercel.app/'
 						/>
 					</Col>
-
+ */}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={crop}
@@ -217,8 +218,6 @@ function Projects() {
 							demoLink='https://crop-image-flax.vercel.app/'
 						/>
 					</Col>
-
-			
 				</Row>
 			</Container>
 		</Container>
