@@ -19,6 +19,7 @@ import scrollProject from '../../Assets/Projects/scroll.png';
 import mern from '../../Assets/Projects/mern-blog.png';
 import gym from '../../Assets/Projects/gym.png';
 import wiki from '../../Assets/Projects/wiki.png';
+import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 
 function Projects() {
 	return (
@@ -43,16 +44,16 @@ function Projects() {
 						/>
 					</Col>
 
-				{/*	<Col md={4} className='project-card'>
+					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={scrollProject}
+							imgPath={mizukatypes}
 							isBlog={false}
-							title='Scroll Page'
-							description='A simple one page Scroll Web App with useabiltiy in mind.'
-							ghLink='https://github.com/Zahooruddin-dev/Scroll-Page-querySelector-PRACTICE-JS-VANILA--project-future-Reuse'
-							demoLink='https://scroll-one-page-js-vanila-project-future-reuse.vercel.app/'
+							title='Mizuka Types 2.0'
+							description='Mizuka Typing is an elegant and interactive typing experience built using React. The application offers multiple modes such as word typing, sentence typing, free typing, and more, with features like sound effects, focused mode, ultra-zen mode, and local storage persistence for user settings.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
+							demoLink='https://mizuka-types-2-0.vercel.app/'
 						/>
-					</Col>*/}
+					</Col>
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
