@@ -66,7 +66,7 @@ function Projects() {
 						/>
 					</Col>
 
-					<Col md={4} className='project-card'>
+				{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={typing}
 							isBlog={false}
@@ -75,7 +75,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
 							demoLink='https://mizukatype.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={wiki}
