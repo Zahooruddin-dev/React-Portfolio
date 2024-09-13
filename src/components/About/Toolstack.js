@@ -22,24 +22,10 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+     {/*  <Col xs={4} md={2} className="tech-icons">
         <SiWindows />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiUnity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiChatbot />
-      </Col>
+ 
       <Col xs={4} md={2} className="tech-icons">
         <SiScrimba />
       </Col>
@@ -50,8 +36,21 @@ function Toolstack() {
         <SiGoogle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiChatbot />
+      </Col> 
+            <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
+      </Col>*/}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiUnity />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiRender />
       </Col>
