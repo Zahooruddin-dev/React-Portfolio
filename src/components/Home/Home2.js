@@ -21,24 +21,30 @@ function Home2() {
 							LET ME <span className='purple'> INTRODUCE </span> MYSELF
 						</h1>
 						<p className='home-about-body'>
-							I started in 3rd Grade on Visual studio and then started using
-							Unity game engine and then lerned Web dev to better present my
-							games in inter-school IT exhibation 
+							I started as a self-taught programmer in 2013 with Unity game
+							engine and Microsoft Visual Basic, then expanded into web
+							development in 2014 to better showcase my games at inter-school IT
+							exhibitions.
 							<br />
-							<br />Winning every year from grade
-							3rd to 12th 
+							<br />
+							Honored with best software development awards for 10 consecutive
+							years, from 2013 to 2024.
 							<i>
-                <br/>
-                <br/>
-
-								<b className='purple'> First Lines ever written on NotePad  <span></span>    <span>&lt;html&gt;&lt;/html&gt;</span>  </b>
+								<br />
+								<br />
+								<b className='purple'>
+									{' '}
+									The very first strokes on NotePad <span></span>{' '}
+									<span>&lt;html&gt;&lt;/html&gt;</span>{' '}
+								</b>
 							</i>
 							<br />
 							<br />
-							My field of Interest's are learning and building new &nbsp;
+							I'm passionate about building new &nbsp;
 							<i>
-								<b className='purple'>Web Technologies and Web apps </b> and
-								also in areas related to <b className='purple'>Simulation Enviornments .</b>
+								<b className='purple'>Web Technologies</b>,{' '}
+								<b className='purple'>Game Development</b>, and occasionally
+								working on <b className='purple'>F1 Simulation Environments</b>.
 							</i>
 							<br />
 							<br />
@@ -66,7 +72,17 @@ function Home2() {
 					<Col md={12} className='home-about-social'>
 						<h1>FIND ME ON</h1>
 						<p>
-							Feel free to <span className='purple'><a href='https://www.linkedin.com/in/muhammad-zahooruddin-nizamani-844a58274/' className='purple'> connect</a> </span>with me
+							Feel free to{' '}
+							<span className='purple'>
+								<a
+									href='https://www.linkedin.com/in/muhammad-zahooruddin-nizamani-844a58274/'
+									className='purple'
+								>
+									{' '}
+									connect
+								</a>{' '}
+							</span>
+							with me
 						</p>
 						<ul className='home-about-social-links'>
 							<li className='social-icons'>
