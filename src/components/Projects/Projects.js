@@ -33,8 +33,6 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-		
-
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mizukatypes}
@@ -50,7 +48,7 @@ function Projects() {
 							imgPath={passwordGen}
 							isBlog={false}
 							title='Password Generator'
-							description='Random Joke Generator is a fun and interactive web app designed to fetch random jokes. Built with modern web technologies, it features a joke history, clipboard copying, and sharing options. The app also includes a theme toggling feature, allowing users to switch between light and dark modes.'
+							description='Developed a versatile password generator tool with customizable options for length, complexity, and character types. Utilized modern JavaScript for dynamic interactions and real-time password generation, ensuring user-friendly customization of passwords while adhering to best practices in security. Implemented robust error handling and validation to enhance user experience and reliability.'
 							ghLink='https://github.com/Zahooruddin-dev/Password-Generator-'
 							demoLink='https://password-generator-beta-rust-14.vercel.app/'
 						/>
@@ -60,37 +58,31 @@ function Projects() {
 							imgPath={qr}
 							isBlog={false}
 							title='QR Code Generator'
-							description='QR Generator
-              A user-friendly web application for generating QR codes quickly and efficiently, built using React and popular libraries. Customize your QR codes with various options and download them for easy sharing.'
+							description='Built a QR code generator that enables users to create high-resolution, customizable QR codes. Leveraged JavaScript and third-party libraries to ensure dynamic generation and real-time previews. Included features for encoding various data types, such as URLs and plain text, and offered styling options to adjust color and size. Ensured seamless user experience with intuitive design and robust error handling.'
 							ghLink='https://github.com/Zahooruddin-dev/QR-Generator-using-libraries-REACT'
 							demoLink='https://qr-mizuka.vercel.app/'
 						/>
 					</Col>
-
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={gym}
 							isBlog={false}
 							title='Mizuka Workout geneartor'
-							description='React web app where you can genearte a workout according to your needs after answering all the questions we need to generate those work outs for you.'
+							description='Developed the Mizuka Workout app to offer personalized workout plans and track fitness progress. Utilized JavaScript and React as well as a responsive design to ensure a seamless user experience across devices. Key features include dynamic workout schedules, real-time progress tracking, and intuitive user interface. Implemented data visualization for performance metrics and integrated motivational reminders to enhance user engagement.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Gym-React'
 							demoLink='https://mizuka-gym-react.vercel.app/'
 						/>
 					</Col>
-
-			
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={wiki}
 							isBlog={false}
 							title='Wikipedia Search'
-							description='A site made using wikipedia API to search Wikipedia articles and stuff easily'
+							description='This dynamic web application allows users to search Wikipedia in multiple languages, providing an enhanced search experience with features like autocomplete suggestions, search history, and popular searches. The application supports various languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu.'
 							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
 							demoLink='https://vercel.com/zahooruddindevs-projects/wikipedia-search-js-vanila'
 						/>
 					</Col>
-				
-
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={tenzies}
@@ -101,15 +93,12 @@ function Projects() {
 							demoLink='https://tenzies-react-phi.vercel.app/'
 						/>
 					</Col>
-
-			
-
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={random}
 							isBlog={false}
 							title='Random Joke Generator'
-							description='A fun and interactive web application for generating random jokes. Users can fetch jokes, copy them to the clipboard, view a history of recent jokes, and share them via the Web Share API. The app also includes a theme toggle for light and dark modes.'
+							description='Created a random joke generator using JavaScript and API integration. The application fetches jokes from a public API, ensuring a diverse range of humor. Users receive a new joke with each interaction, with smooth UI/UX and responsive design for an engaging experience. Implemented features include random joke retrieval, error handling, and user-friendly interface.'
 							ghLink='https://github.com/Zahooruddin-dev/Random-joke-'
 							demoLink='https://joke-gamma.vercel.app/'
 						/>
@@ -124,8 +113,7 @@ function Projects() {
 							demoLink='https://snapped.vercel.app/'
 						/>
 					</Col>
-
-				{/* 	<Col md={4} className='project-card'>
+					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mern}
 							isBlog={false}
@@ -134,7 +122,8 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/MERN-Blog'
 							demoLink='https://mern-blog-five-rho.vercel.app/add-blog'
 						/>
-					</Col> */}	{/* 	<Col md={4} className='project-card'>
+					</Col> */}{' '}
+					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={typing}
 							isBlog={false}
@@ -144,8 +133,7 @@ function Projects() {
 							demoLink='https://mizukatype.vercel.app/'
 						/>
 					</Col> */}
-
-				{/* 	<Col md={4} className='project-card'>
+					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={randomPicker}
 							isBlog={false}
@@ -155,8 +143,7 @@ function Projects() {
 							demoLink='https://random-picker-five.vercel.app/'
 						/>
 					</Col> */}
-
-{/* 					<Col md={4} className='project-card'>
+					{/* 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={ticTacToe}
 							isBlog={false}
@@ -177,8 +164,7 @@ function Projects() {
 							demoLink='https://walkthewok.vercel.app/'
 						/>
 					</Col> */}
-
-				{/* 	<Col md={4} className='project-card'>
+					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={ChromeExtension}
 							isBlog={false}
@@ -188,7 +174,7 @@ function Projects() {
 							demoLink='https://chrome-extenesion.vercel.app/'
 						/>
 					</Col> */}
-{/* 
+					{/* 
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={meme}
@@ -199,7 +185,6 @@ function Projects() {
 							demoLink='https://meme-generaor.vercel.app/'
 						/>
 					</Col> */}
-
 					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={keep}
@@ -216,8 +201,7 @@ function Projects() {
 							imgPath={crop}
 							isBlog={false}
 							title='Crop image'
-							description=' A simple tool for cropping images. Allows users to select and adjust the crop area 
-  with real-time preview. Ideal for resizing and preparing images for various layouts.'
+							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
 							demoLink='https://crop-image-flax.vercel.app/'
 						/>
