@@ -80,7 +80,7 @@ function Projects() {
 							title='Wikipedia Search'
 							description='This dynamic web application allows users to search Wikipedia in multiple languages, providing an enhanced search experience with features like autocomplete suggestions, search history, and popular searches. The application supports various languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu.'
 							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
-							demoLink='https://vercel.com/zahooruddindevs-projects/wikipedia-search-js-vanila'
+							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
