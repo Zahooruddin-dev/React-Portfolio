@@ -33,16 +33,7 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={Snap}
-							isBlog={false}
-							title='Snap'
-							description='A modern social media app to capture, share, and explore content, built with TypeScript, React, and Tailwind CSS. Offers seamless post creation, editing, and account management, all while providing a responsive and engaging user experience. Deployed on Vercel for fast and reliable access.'
-							ghLink='https://github.com/Zahooruddin-dev/snapping'
-							demoLink='https://snapped.vercel.app/'
-						/>
-					</Col>
+		
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
@@ -52,38 +43,6 @@ function Projects() {
 							description='Mizuka Typing is an elegant and interactive typing experience built using React. The application offers multiple modes such as word typing, sentence typing, free typing, and more, with features like sound effects, focused mode, ultra-zen mode, and local storage persistence for user settings.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
-						/>
-					</Col>
-
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={gym}
-							isBlog={false}
-							title='Mizuka Workout geneartor'
-							description='React web app where you can genearte a workout according to your needs after answering all the questions we need to generate those work outs for you.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Gym-React'
-							demoLink='https://mizuka-gym-react.vercel.app/'
-						/>
-					</Col>
-
-				{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={typing}
-							isBlog={false}
-							title='Typing Website'
-							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
-							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
-							demoLink='https://mizukatype.vercel.app/'
-						/>
-					</Col> */}
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={wiki}
-							isBlog={false}
-							title='Wikipedia Search'
-							description='A site made using wikipedia API to search Wikipedia articles and stuff easily'
-							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
-							demoLink='https://vercel.com/zahooruddindevs-projects/wikipedia-search-js-vanila'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -96,18 +55,6 @@ function Projects() {
 							demoLink='https://password-generator-beta-rust-14.vercel.app/'
 						/>
 					</Col>
-
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={tenzies}
-							isBlog={false}
-							title='T E N Z I E S'
-							description='React Implementation This is a web-based version of the classic dice game, Tenzies, built using React. The objective of the game is to roll ten dice until they all show the same number. Players can hold specific dice between rolls to strategically match all dice as quickly as possible.'
-							ghLink='https://github.com/Zahooruddin-dev/Tenzies-REACT'
-							demoLink='https://tenzies-react-phi.vercel.app/'
-						/>
-					</Col>
-
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={qr}
@@ -122,12 +69,59 @@ function Projects() {
 
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={gym}
+							isBlog={false}
+							title='Mizuka Workout geneartor'
+							description='React web app where you can genearte a workout according to your needs after answering all the questions we need to generate those work outs for you.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Gym-React'
+							demoLink='https://mizuka-gym-react.vercel.app/'
+						/>
+					</Col>
+
+			
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={wiki}
+							isBlog={false}
+							title='Wikipedia Search'
+							description='A site made using wikipedia API to search Wikipedia articles and stuff easily'
+							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
+							demoLink='https://vercel.com/zahooruddindevs-projects/wikipedia-search-js-vanila'
+						/>
+					</Col>
+				
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={tenzies}
+							isBlog={false}
+							title='T E N Z I E S'
+							description='React Implementation This is a web-based version of the classic dice game, Tenzies, built using React. The objective of the game is to roll ten dice until they all show the same number. Players can hold specific dice between rolls to strategically match all dice as quickly as possible.'
+							ghLink='https://github.com/Zahooruddin-dev/Tenzies-REACT'
+							demoLink='https://tenzies-react-phi.vercel.app/'
+						/>
+					</Col>
+
+			
+
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={random}
 							isBlog={false}
 							title='Random Joke Generator'
 							description='A fun and interactive web application for generating random jokes. Users can fetch jokes, copy them to the clipboard, view a history of recent jokes, and share them via the Web Share API. The app also includes a theme toggle for light and dark modes.'
 							ghLink='https://github.com/Zahooruddin-dev/Random-joke-'
 							demoLink='https://joke-gamma.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={Snap}
+							isBlog={false}
+							title='Snap'
+							description='A modern social media app to capture, share, and explore content, built with TypeScript, React, and Tailwind CSS. Offers seamless post creation, editing, and account management, all while providing a responsive and engaging user experience. Deployed on Vercel for fast and reliable access.'
+							ghLink='https://github.com/Zahooruddin-dev/snapping'
+							demoLink='https://snapped.vercel.app/'
 						/>
 					</Col>
 
@@ -139,6 +133,15 @@ function Projects() {
 							description='A simple MERN blog web app for learning'
 							ghLink='https://github.com/Zahooruddin-dev/MERN-Blog'
 							demoLink='https://mern-blog-five-rho.vercel.app/add-blog'
+						/>
+					</Col> */}	{/* 	<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={typing}
+							isBlog={false}
+							title='Typing Website'
+							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
+							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
+							demoLink='https://mizukatype.vercel.app/'
 						/>
 					</Col> */}
 
@@ -153,7 +156,7 @@ function Projects() {
 						/>
 					</Col> */}
 
-					<Col md={4} className='project-card'>
+{/* 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={ticTacToe}
 							isBlog={false}
@@ -173,7 +176,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
 							demoLink='https://walkthewok.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 
 				{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
