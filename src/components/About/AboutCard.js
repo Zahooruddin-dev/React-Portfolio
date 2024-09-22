@@ -15,9 +15,6 @@ function AboutCard() {
             <br />
 						I completed high school with a focus on Computer Science and have
 						since immersed myself in Front-end Web Development with {'React'}.
-		
-
-					
 						<br />
 						<br />
 						Some of my favorite projects I've developed and worked

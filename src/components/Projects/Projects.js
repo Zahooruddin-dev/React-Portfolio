@@ -10,7 +10,7 @@ import crop from '../../Assets/Projects/crop.png';
 import Snap from '../../Assets/Projects/Snap.png';
 import resturant from '../../Assets/Projects/resturant.png';
 import typing from '../../Assets/Projects/typing.png';
-import randomPicker from '../../Assets/Projects/randomPicker.png';
+import dashboard from '../../Assets/Projects/dashboard.png';
 import ChromeExtension from '../../Assets/Projects/ChromeExtension.png';
 import ticTacToe from '../../Assets/Projects/tik-tok-tak.png';
 import keep from '../../Assets/Projects/keep.png';
@@ -38,9 +38,29 @@ function Projects() {
 							imgPath={mizukatypes}
 							isBlog={false}
 							title='Mizuka Types 2.0'
-							description='Mizuka Typing is an elegant and interactive typing experience built using React. The application offers multiple modes such as word typing, sentence typing, free typing, and more, with features like sound effects, focused mode, ultra-zen mode, and local storage persistence for user settings.'
+							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={Snap}
+							isBlog={false}
+							title='Snap'
+							description='SNAP is a modern social media web application developed using TypeScript, React, and Tailwind CSS, designed to offer users an intuitive platform for creating, sharing, and exploring posts. Deployed on Vercel for fast, reliable access, the app features post creation and editing tools, robust account management, and a dynamic explore page to discover trending content. With responsive design, it ensures seamless navigation across devices. Utilizing Appwrite for backend services, Zod for validation, and React-Query for efficient data fetching, SNAP emphasizes performance and scalability.'
+							ghLink='https://github.com/Zahooruddin-dev/snapping'
+							demoLink='https://snapped.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={dashboard}
+							isBlog={false}
+							title='Dashboard'
+							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
+							ghLink='https://github.com/Zahooruddin-dev/QR-Generator-using-libraries-REACT'
+							demoLink='https://qr-mizuka.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -55,15 +75,15 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={qr}
+							imgPath={crop}
 							isBlog={false}
-							title='QR Code Generator'
-							description='Built a QR code generator that enables users to create high-resolution, customizable QR codes. Leveraged JavaScript and third-party libraries to ensure dynamic generation and real-time previews. Included features for encoding various data types, such as URLs and plain text, and offered styling options to adjust color and size. Ensured seamless user experience with intuitive design and robust error handling.'
-							ghLink='https://github.com/Zahooruddin-dev/QR-Generator-using-libraries-REACT'
-							demoLink='https://qr-mizuka.vercel.app/'
+							title='Crop image'
+							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
+							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
+							demoLink='https://crop-image-flax.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
+					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={gym}
 							isBlog={false}
@@ -72,18 +92,18 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Gym-React'
 							demoLink='https://mizuka-gym-react.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={wiki}
 							isBlog={false}
 							title='Wikipedia Search'
-							description='This dynamic web application allows users to search Wikipedia in multiple languages, providing an enhanced search experience with features like autocomplete suggestions, search history, and popular searches. The application supports various languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu.'
+							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
 							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
+					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={tenzies}
 							isBlog={false}
@@ -102,17 +122,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Random-joke-'
 							demoLink='https://joke-gamma.vercel.app/'
 						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={Snap}
-							isBlog={false}
-							title='Snap'
-							description='A modern social media app to capture, share, and explore content, built with TypeScript, React, and Tailwind CSS. Offers seamless post creation, editing, and account management, all while providing a responsive and engaging user experience. Deployed on Vercel for fast and reliable access.'
-							ghLink='https://github.com/Zahooruddin-dev/snapping'
-							demoLink='https://snapped.vercel.app/'
-						/>
-					</Col>
+					</Col> */}
 					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mern}
@@ -196,16 +206,6 @@ function Projects() {
 						/>
 					</Col>
  */}
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={crop}
-							isBlog={false}
-							title='Crop image'
-							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
-							demoLink='https://crop-image-flax.vercel.app/'
-						/>
-					</Col>
 				</Row>
 			</Container>
 		</Container>
