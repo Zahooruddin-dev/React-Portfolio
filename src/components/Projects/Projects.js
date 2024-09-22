@@ -59,8 +59,8 @@ function Projects() {
 							isBlog={false}
 							title='Dashboard'
 							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
-							ghLink='https://github.com/Zahooruddin-dev/QR-Generator-using-libraries-REACT'
-							demoLink='https://qr-mizuka.vercel.app/'
+							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
+							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
