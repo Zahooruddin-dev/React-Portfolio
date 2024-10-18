@@ -20,6 +20,7 @@ import mern from '../../Assets/Projects/mern-blog.png';
 import gym from '../../Assets/Projects/gym.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
+import mp3 from '../../Assets/Projects/mp31.png';
 import reactPorjects from '../../Assets/Projects/react-projects.png';
 function Projects() {
 	return (
@@ -53,6 +54,16 @@ function Projects() {
 							demoLink='https://snapped.vercel.app/'
 						/>
 					</Col> */}
+						<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={mp3}
+							isBlog={false}
+							title='Youtube Video to MP3'
+							description='This is a web-based version of the classic Tenzies dice game, implemented using React. The goal of the game is to roll ten dice and match them all to the same number. Players can selectively hold certain dice between rolls, using strategy to reach the goal efficiently. The game provides real-time updates, a visually dynamic interface, and responsive design for an engaging user experience.'
+							ghLink='https://github.com/Zahooruddin-dev/Youtube-Video-MP3-Converter-React'
+							demoLink='https://mizukamp3.vercel.app/'
+						/>
+					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={reactPorjects}
@@ -93,7 +104,6 @@ function Projects() {
 							demoLink='https://crop-image-flax.vercel.app/'
 						/>
 					</Col>
-					
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={wiki}
@@ -104,16 +114,7 @@ function Projects() {
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
 					</Col>
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={tenzies}
-							isBlog={false}
-							title='T E N Z I E S'
-							description='React Implementation This is a web-based version of the classic dice game, Tenzies, built using React. The objective of the game is to roll ten dice until they all show the same number. Players can hold specific dice between rolls to strategically match all dice as quickly as possible.'
-							ghLink='https://github.com/Zahooruddin-dev/Tenzies-REACT'
-							demoLink='https://tenzies-react-phi.vercel.app/'
-						/>
-					</Col>
+					{/* 
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={random}
