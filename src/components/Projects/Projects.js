@@ -20,7 +20,7 @@ import mern from '../../Assets/Projects/mern-blog.png';
 import gym from '../../Assets/Projects/gym.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
-
+import reactPorjects from '../../Assets/Projects/react-projects.png';
 function Projects() {
 	return (
 		<Container fluid className='project-section'>
@@ -43,7 +43,7 @@ function Projects() {
 							demoLink='https://mizuka-types-2-0.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
+					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={Snap}
 							isBlog={false}
@@ -51,6 +51,16 @@ function Projects() {
 							description='SNAP is a modern social media web application developed using TypeScript, React, and Tailwind CSS, designed to offer users an intuitive platform for creating, sharing, and exploring posts. Deployed on Vercel for fast, reliable access, the app features post creation and editing tools, robust account management, and a dynamic explore page to discover trending content. With responsive design, it ensures seamless navigation across devices. Utilizing Appwrite for backend services, Zod for validation, and React-Query for efficient data fetching, SNAP emphasizes performance and scalability.'
 							ghLink='https://github.com/Zahooruddin-dev/snapping'
 							demoLink='https://snapped.vercel.app/'
+						/>
+					</Col> */}
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={reactPorjects}
+							isBlog={false}
+							title='Multi React Single Page Projects'
+							description='Developed an interactive React project that features a collection of UI components to enhance user experience. Utilized JavaScript and React for dynamic state management and responsive design across devices. Key components include a counter, accordion, tabs, modal dialogs, filterable galleries, and sticky headers. Implemented intuitive navigation and user-friendly buttons for actions like loading more content and returning to the top of the page. This project demonstrates advanced React techniques and serves as a practical resource for creating engaging web applications.'
+							ghLink='https://github.com/Zahooruddin-dev/React.js-Projects-Singal-pade'
+							demoLink='https://vercel.live/link/react-js-projects-singal-pade.vercel.app?via=project-dashboard-alias-list&p=1'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -83,16 +93,7 @@ function Projects() {
 							demoLink='https://crop-image-flax.vercel.app/'
 						/>
 					</Col>
-					{/* <Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={gym}
-							isBlog={false}
-							title='Mizuka Workout geneartor'
-							description='Developed the Mizuka Workout app to offer personalized workout plans and track fitness progress. Utilized JavaScript and React as well as a responsive design to ensure a seamless user experience across devices. Key features include dynamic workout schedules, real-time progress tracking, and intuitive user interface. Implemented data visualization for performance metrics and integrated motivational reminders to enhance user engagement.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Gym-React'
-							demoLink='https://mizuka-gym-react.vercel.app/'
-						/>
-					</Col> */}
+					
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={wiki}
