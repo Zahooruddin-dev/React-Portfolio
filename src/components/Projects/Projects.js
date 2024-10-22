@@ -21,6 +21,7 @@ import gym from '../../Assets/Projects/gym.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 import mp3 from '../../Assets/Projects/mp31.png';
+import gem from '../../Assets/Projects/gem.png';
 import reactPorjects from '../../Assets/Projects/react-projects.png';
 function Projects() {
 	return (
@@ -44,16 +45,17 @@ function Projects() {
 							demoLink='https://mizuka-types-2-0.vercel.app/'
 						/>
 					</Col>
-					{/* <Col md={4} className='project-card'>
+					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={Snap}
+							imgPath={gem}
 							isBlog={false}
-							title='Snap'
-							description='SNAP is a modern social media web application developed using TypeScript, React, and Tailwind CSS, designed to offer users an intuitive platform for creating, sharing, and exploring posts. Deployed on Vercel for fast, reliable access, the app features post creation and editing tools, robust account management, and a dynamic explore page to discover trending content. With responsive design, it ensures seamless navigation across devices. Utilizing Appwrite for backend services, Zod for validation, and React-Query for efficient data fetching, SNAP emphasizes performance and scalability.'
-							ghLink='https://github.com/Zahooruddin-dev/snapping'
-							demoLink='https://snapped.vercel.app/'
+							title='Gemini Clone (Contact me for login creds)'
+							description='
+GEMINI Clone is a React-based web app that simulates content generation using the Gemini API. With secure authentication and a login page, users can generate text, view recent responses, and save results locally for easy access. The app offers a seamless and responsive user experience across devices. Deployed on Vercel for reliability, GEMINI Clone efficiently handles real-time requests with robust error management and local storage integration, ensuring both performance and scalability.'
+							ghLink='https://github.com/Zahooruddin-dev/Gemini-React'
+							demoLink='https://mizukagemini.vercel.app/'
 						/>
-					</Col> */}
+					</Col>
 						<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mp3}
