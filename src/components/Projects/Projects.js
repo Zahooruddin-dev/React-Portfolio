@@ -47,23 +47,23 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={gem}
+							imgPath={dashboard}
 							isBlog={false}
-							title='Gemini Clone (Contact me for login creds)'
-							description='
-GEMINI Clone is a React-based web app that simulates content generation using the Gemini API. With secure authentication and a login page, users can generate text, view recent responses, and save results locally for easy access. The app offers a seamless and responsive user experience across devices. Deployed on Vercel for reliability, GEMINI Clone efficiently handles real-time requests with robust error management and local storage integration, ensuring both performance and scalability.'
-							ghLink='https://github.com/Zahooruddin-dev/Gemini-React'
-							demoLink='https://mizukagemini.vercel.app/'
+							title='Dashboard'
+							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
+							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
+							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
-						<Col md={4} className='project-card'>
+					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={mp3}
+							imgPath={gem}
 							isBlog={false}
-							title='Youtube Video to MP3'
-							description='This is a web-based version of the classic Tenzies dice game, implemented using React. The goal of the game is to roll ten dice and match them all to the same number. Players can selectively hold certain dice between rolls, using strategy to reach the goal efficiently. The game provides real-time updates, a visually dynamic interface, and responsive design for an engaging user experience.'
-							ghLink='https://github.com/Zahooruddin-dev/Youtube-Video-MP3-Converter-React'
-							demoLink='https://mizukamp3.vercel.app/'
+							title='Gemini Clone (Login needed)'
+							description='
+								GEMINI Clone is a React-based web app that simulates content generation using the Gemini API. With secure authentication and a login page, users can generate text, view recent responses, and save results locally for easy access. The app offers a seamless and responsive user experience across devices. Deployed on Vercel for reliability, GEMINI Clone efficiently handles real-time requests with robust error management and local storage integration, ensuring both performance and scalability.'
+							ghLink='https://github.com/Zahooruddin-dev/Gemini-React'
+							demoLink='https://mizukagemini.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -78,12 +78,12 @@ GEMINI Clone is a React-based web app that simulates content generation using th
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={dashboard}
+							imgPath={mp3}
 							isBlog={false}
-							title='Dashboard'
-							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
-							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
-							demoLink='https://dashbaord-react-three.vercel.app/'
+							title='Youtube Video to MP3'
+							description='This is a web-based version of the classic Tenzies dice game, implemented using React. The goal of the game is to roll ten dice and match them all to the same number. Players can selectively hold certain dice between rolls, using strategy to reach the goal efficiently. The game provides real-time updates, a visually dynamic interface, and responsive design for an engaging user experience.'
+							ghLink='https://github.com/Zahooruddin-dev/Youtube-Video-MP3-Converter-React'
+							demoLink='https://mizukamp3.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
