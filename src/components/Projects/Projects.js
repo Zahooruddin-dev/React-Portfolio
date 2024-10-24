@@ -116,6 +116,16 @@ function Projects() {
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
 					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={resturant}
+							isBlog={false}
+							title='Resturant-Walk-the-wok'
+							description='An interactive restaurant website designed for online booking and showcasing the unique dining experience at Walk the Wok. Built with JS, the site allows customers to view the menu, make reservations, and explore the ambiance through an engaging interface.'
+							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
+							demoLink='https://walkthewok.vercel.app/'
+						/>
+					</Col> 
 					{/* 
 					<Col md={4} className='project-card'>
 						<ProjectCard
@@ -168,16 +178,7 @@ function Projects() {
 						/>
 					</Col>
 
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={resturant}
-							isBlog={false}
-							title='Resturant-Walk-the-wok'
-							description='An interactive restaurant website designed for online booking and showcasing the unique dining experience at Walk the Wok. Built with JS, the site allows customers to view the menu, make reservations, and explore the ambiance through an engaging interface.'
-							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
-							demoLink='https://walkthewok.vercel.app/'
-						/>
-					</Col> */}
+		*/}
 					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={ChromeExtension}
