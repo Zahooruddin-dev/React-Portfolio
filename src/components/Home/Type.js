@@ -9,8 +9,8 @@ function Type() {
           "React JS Developer",
           "Front-End Web developer",
           "Simulation Enviornment Developer",
-          "Former Game Developer",
-          "Former Game Design",
+          "Former Game Developer and Game Design",
+          
         ],
         autoStart: true,
         loop: true,
