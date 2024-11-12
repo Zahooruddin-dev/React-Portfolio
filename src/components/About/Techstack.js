@@ -71,9 +71,10 @@ function Techstack() {
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiGamedeveloper />
 			</Col>
-			{/*    <Col xs={4} md={2} className="tech-icons">
+			<Col xs={4} md={2} className="tech-icons">
         <SiFreelancer />
-      </Col>    
+      </Col> 
+			{/*       
    <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
