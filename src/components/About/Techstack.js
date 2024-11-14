@@ -35,8 +35,7 @@ function Techstack() {
 			{/*   <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+ 
       </Col>
         <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
@@ -46,6 +45,9 @@ function Techstack() {
 			</Col>
 			<Col xs={4} md={2} className='tech-icons'>
 				<DiReact />
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+			<DiHtml5 />
 			</Col>
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiFirebase />
