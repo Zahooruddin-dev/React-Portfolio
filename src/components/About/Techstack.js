@@ -37,9 +37,7 @@ function Techstack() {
       </Col>
  
       </Col>
-        <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col> */}
+       */}
 			<Col xs={4} md={2} className='tech-icons'>
 				<DiJavascript1 />
 			</Col>
@@ -49,6 +47,9 @@ function Techstack() {
 			<Col xs={4} md={2} className="tech-icons">
 			<DiHtml5 />
 			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col> 
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiFirebase />
 			</Col>
