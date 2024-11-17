@@ -67,14 +67,14 @@ function Techstack() {
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiCsharp />
 			</Col>
-			<Col xs={4} md={2} className='tech-icons'>
-				<DiGit />
-			</Col>
+
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiUnity />
 			</Col>
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiGamedeveloper />
+			</Col>			<Col xs={4} md={2} className='tech-icons'>
+				<DiGit />
 			</Col>
 			
 			{/*       
