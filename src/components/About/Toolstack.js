@@ -26,9 +26,7 @@ function Toolstack() {
         <SiWindows />
       </Col>
  
-      <Col xs={4} md={2} className="tech-icons">
-        <SiScrimba />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiStackoverflow />
       </Col>
@@ -56,6 +54,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMdnwebdocs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScrimba />
       </Col>
     </Row>
   );
