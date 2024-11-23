@@ -17,9 +17,12 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function App() {
   const [load, upadateLoad] = useState(true);
+  
 // Must use useEffect otherwise the siting will have weird sideEffects
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
