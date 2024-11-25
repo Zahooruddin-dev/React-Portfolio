@@ -30,9 +30,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiStackoverflow />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGoogle />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiChatbot />
       </Col> 
@@ -48,7 +46,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGoogle />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRender />
       </Col>
