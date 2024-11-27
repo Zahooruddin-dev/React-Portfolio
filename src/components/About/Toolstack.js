@@ -57,7 +57,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiScrimba />
-      </Col>
+      </Col> <Col xs={4} md={2} className="tech-icons">
+        <SiChatbot />
+      </Col> 
     </Row>
   );
 }
