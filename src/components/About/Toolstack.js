@@ -47,6 +47,9 @@ function Toolstack() {
         <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiGoogle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
