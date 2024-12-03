@@ -14,6 +14,7 @@ import {
   SiStackoverflow,
   SiGoogle,
   SiMozilla,
+  SiGamedeveloper,
   SiMdnwebdocs,
   SiNetlify,
   SiRender,
@@ -62,6 +63,9 @@ function Toolstack() {
         <SiScrimba />
       </Col> <Col xs={4} md={2} className="tech-icons">
         <SiChatbot />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGamedeveloper />
       </Col> 
       
     </Row>
