@@ -18,6 +18,7 @@ import {
   SiMdnwebdocs,
   SiNetlify,
   SiRender,
+  SiGmail
 } from "react-icons/si";
 
 function Toolstack() {
@@ -66,6 +67,8 @@ function Toolstack() {
       </Col> 
       <Col xs={4} md={2} className="tech-icons">
         <SiGamedeveloper />
+      </Col>  <Col xs={4} md={2} className="tech-icons">
+        <SiGmail />
       </Col> 
       
     </Row>
