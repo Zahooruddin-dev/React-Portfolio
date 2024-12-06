@@ -29,13 +29,8 @@ function Toolstack() {
       </Col>
  
       
-      <Col xs={4} md={2} className="tech-icons">
-        <SiStackoverflow />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <SiChatbot />
-      </Col> 
+   
+    
             <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>*/}
@@ -69,7 +64,10 @@ function Toolstack() {
         <SiGamedeveloper />
       </Col>  <Col xs={4} md={2} className="tech-icons">
         <SiGmail />
-      </Col> 
+      </Col>    <Col xs={4} md={2} className="tech-icons">
+        <SiStackoverflow />
+      </Col>
+      
       
     </Row>
   );
