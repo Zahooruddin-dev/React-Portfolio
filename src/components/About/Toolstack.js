@@ -38,6 +38,9 @@ function Toolstack() {
         <SiUnity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGamedeveloper />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -62,9 +65,7 @@ function Toolstack() {
       </Col> <Col xs={4} md={2} className="tech-icons">
         <SiChatbot />
       </Col> 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGamedeveloper />
-      </Col>  <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons">
         <SiGmail />
       </Col>    
       
