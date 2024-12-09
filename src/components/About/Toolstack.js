@@ -50,11 +50,12 @@ function Toolstack() {
         <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGoogle />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiRender />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGoogle />
+      </Col>
+    
       <Col xs={4} md={2} className="tech-icons">
         <SiMdnwebdocs />
       </Col><Col xs={4} md={2} className="tech-icons">
