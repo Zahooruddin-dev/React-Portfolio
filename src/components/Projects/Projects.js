@@ -125,7 +125,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
 							demoLink='https://walkthewok.vercel.app/'
 						/>
-					</Col> 
+					</Col>
 					{/* 
 					<Col md={4} className='project-card'>
 						<ProjectCard
