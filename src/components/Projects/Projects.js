@@ -78,6 +78,36 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={crop}
+							isBlog={false}
+							title='Aspect Ratio Editor'
+							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
+							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
+							demoLink='https://crop-image-flax.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={wiki}
+							isBlog={false}
+							title='Wikipedia Search'
+							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
+							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
+							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={resturant}
+							isBlog={false}
+							title='Resturant-Walk-the-wok'
+							description='An interactive restaurant website designed for online booking and showcasing the unique dining experience at Walk the Wok. Built with JS, the site allows customers to view the menu, make reservations, and explore the ambiance through an engaging interface.'
+							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
+							demoLink='https://walkthewok.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={gem}
 							isBlog={false}
 							title='Gemini Clone (Login needed)'
@@ -117,36 +147,7 @@ function Projects() {
 							demoLink='https://password-generator-beta-rust-14.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={crop}
-							isBlog={false}
-							title='Aspect Ratio Editor'
-							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
-							demoLink='https://crop-image-flax.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={wiki}
-							isBlog={false}
-							title='Wikipedia Search'
-							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
-							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
-							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={resturant}
-							isBlog={false}
-							title='Resturant-Walk-the-wok'
-							description='An interactive restaurant website designed for online booking and showcasing the unique dining experience at Walk the Wok. Built with JS, the site allows customers to view the menu, make reservations, and explore the ambiance through an engaging interface.'
-							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
-							demoLink='https://walkthewok.vercel.app/'
-						/>
-					</Col>
+	
 					{/* 
 					<Col md={4} className='project-card'>
 						<ProjectCard
