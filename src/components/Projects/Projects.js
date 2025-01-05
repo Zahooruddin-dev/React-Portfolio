@@ -52,7 +52,7 @@ function Projects() {
 							title='Fresh Sweep'
 							description='Built a sleek and user-friendly platform, Fresh Sweep, utilizing modern web technologies to offer cleaning services with ease. Designed to allow users to book appointments and make direct calls, providing a seamless and intuitive experience. Integrated a fully functional form powered by EmailJS to handle service inquiries efficiently. Focused on responsive design and clean aesthetics to ensure accessibility across all devices. Emphasized usability and polished functionality to cater to a wide audience while maintaining a professional and approachable interface.'
 							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
-							demoLink='https://dashbaord-react-three.vercel.app/'
+							demoLink='https://clean-dream.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
