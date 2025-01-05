@@ -55,16 +55,7 @@ function Projects() {
 							demoLink='https://clean-dream.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={dashboard}
-							isBlog={false}
-							title='Dashboard'
-							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
-							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
-							demoLink='https://dashbaord-react-three.vercel.app/'
-						/>
-					</Col>
+					
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={yoga}
@@ -73,6 +64,16 @@ function Projects() {
 							description='Built a sleek and modern Yoga Studio website using ReactJS, designed to showcase services and create a serene user experience. Integrated a booking and contact form to facilitate easy scheduling and inquiries, powered by responsive and user-friendly components. Emphasized a calming and professional design aesthetic, ensuring accessibility across all devices. Utilized Reacts state and props to manage dynamic content effectively, creating a seamless and polished interface. Focused on delivering a functional yet elegant solution that reflects the tranquil nature of the studios offerings.'
 							ghLink='https://github.com/Zahooruddin-dev/Yoga-Studio'
 							demoLink='https://yoga-studio-pi.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={dashboard}
+							isBlog={false}
+							title='Dashboard'
+							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
+							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
+							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -110,7 +111,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={passwordGen}
 							isBlog={false}
-							title='Password Generator'
+							title='Pass Encrypt '
 							description='Developed a versatile password generator tool with customizable options for length, complexity, and character types. Utilized modern JavaScript for dynamic interactions and real-time password generation, ensuring user-friendly customization of passwords while adhering to best practices in security. Implemented robust error handling and validation to enhance user experience and reliability.'
 							ghLink='https://github.com/Zahooruddin-dev/Password-Generator-'
 							demoLink='https://password-generator-beta-rust-14.vercel.app/'
@@ -120,7 +121,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={crop}
 							isBlog={false}
-							title='Crop image'
+							title='Aspect Ratio Editor'
 							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
 							demoLink='https://crop-image-flax.vercel.app/'
