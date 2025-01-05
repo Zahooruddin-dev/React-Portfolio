@@ -17,7 +17,7 @@ import keep from '../../Assets/Projects/keep.png';
 import meme from '../../Assets/Projects/meme-maker.png';
 import scrollProject from '../../Assets/Projects/scroll.png';
 import mern from '../../Assets/Projects/mern-blog.png';
-import gym from '../../Assets/Projects/gym.png';
+import sweeps from '../../Assets/Projects/sweeps.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 import mp3 from '../../Assets/Projects/mp31.png';
@@ -43,6 +43,16 @@ function Projects() {
 							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={sweeps}
+							isBlog={false}
+							title='Fresh Sweep'
+							description='Built a sleek and user-friendly platform, Fresh Sweep, utilizing modern web technologies to offer cleaning services with ease. Designed to allow users to book appointments and make direct calls, providing a seamless and intuitive experience. Integrated a fully functional form powered by EmailJS to handle service inquiries efficiently. Focused on responsive design and clean aesthetics to ensure accessibility across all devices. Emphasized usability and polished functionality to cater to a wide audience while maintaining a professional and approachable interface.'
+							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
+							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
