@@ -15,7 +15,7 @@ import ChromeExtension from '../../Assets/Projects/ChromeExtension.png';
 import ticTacToe from '../../Assets/Projects/tik-tok-tak.png';
 import keep from '../../Assets/Projects/keep.png';
 import meme from '../../Assets/Projects/meme-maker.png';
-import scrollProject from '../../Assets/Projects/scroll.png';
+import grower from '../../Assets/Projects/grower.png';
 import yoga from '../../Assets/Projects/yoga.png';
 import sweeps from '../../Assets/Projects/sweeps.png';
 import wiki from '../../Assets/Projects/wiki.png';
@@ -68,9 +68,19 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={grower}
+							isBlog={false}
+							title='G R O W E R'
+							description='Developed an elegant and responsive React-based platform to showcase consulting services for growers. Designed to streamline appointment scheduling and provide essential resources for clients. Integrated a user-friendly interface with features like a dynamic booking form powered by EmailJS for inquiries and seamless communication. Emphasized intuitive navigation, clean aesthetics, and cross-device compatibility to ensure accessibility and a professional user experience. Focused on delivering a polished and approachable digital presence tailored to the needs of the consulting company.'
+							ghLink='https://github.com/Zahooruddin-dev/Grower'
+							demoLink='https://grower-sandy.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={dashboard}
 							isBlog={false}
-							title='Dashboard'
+							title='Dashboard UI'
 							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
 							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
 							demoLink='https://dashbaord-react-three.vercel.app/'
@@ -90,7 +100,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={wiki}
 							isBlog={false}
-							title='Wikipedia Search'
+							title='Wikipedia Simplified'
 							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
 							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
@@ -100,8 +110,8 @@ function Projects() {
 						<ProjectCard
 							imgPath={resturant}
 							isBlog={false}
-							title='Resturant-Walk-the-wok'
-							description='An interactive restaurant website designed for online booking and showcasing the unique dining experience at Walk the Wok. Built with JS, the site allows customers to view the menu, make reservations, and explore the ambiance through an engaging interface.'
+							title='Walk the wok'
+							description='Crafted an interactive and visually appealing restaurant website for Walk the Wok, designed to enhance the online booking experience and showcase the unique dining ambiance. Built using JavaScript, the platform features a dynamic menu display, reservation options, and an engaging interface that immerses customers in the restaurants vibe. Focused on providing a seamless user experience, with intuitive navigation and responsive design, ensuring accessibility across all devices. Highlighted the brands identity by combining aesthetics with functionality, making it easy for customers to explore the offerings and secure their reservations effortlessly.'
 							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
 							demoLink='https://walkthewok.vercel.app/'
 						/>
@@ -110,7 +120,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={gem}
 							isBlog={false}
-							title='Gemini Clone (Login needed)'
+							title='G E M I N I'
 							description='
 								GEMINI Clone is a React-based web app that simulates content generation using the Gemini API. With secure authentication and a login page, users can generate text, view recent responses, and save results locally for easy access. The app offers a seamless and responsive user experience across devices. Deployed on Vercel for reliability, GEMINI Clone efficiently handles real-time requests with robust error management and local storage integration, ensuring both performance and scalability.'
 							ghLink='https://github.com/Zahooruddin-dev/Gemini-React'
@@ -121,7 +131,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={reactPorjects}
 							isBlog={false}
-							title='Multi React Single Page Projects'
+							title='Multi Project'
 							description='Developed an interactive React project that features a collection of UI components to enhance user experience. Utilized JavaScript and React for dynamic state management and responsive design across devices. Key components include a counter, accordion, tabs, modal dialogs, filterable galleries, and sticky headers. Implemented intuitive navigation and user-friendly buttons for actions like loading more content and returning to the top of the page. This project demonstrates advanced React techniques and serves as a practical resource for creating engaging web applications.'
 							ghLink='https://github.com/Zahooruddin-dev/React.js-Projects-Singal-pade'
 							demoLink='https://vercel.live/link/react-js-projects-singal-pade.vercel.app?via=project-dashboard-alias-list&p=1'
@@ -131,7 +141,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={mp3}
 							isBlog={false}
-							title='Youtube Video to MP3'
+							title='YT music downloader'
 							description='This is a web-based version of the classic Tenzies dice game, implemented using React. The goal of the game is to roll ten dice and match them all to the same number. Players can selectively hold certain dice between rolls, using strategy to reach the goal efficiently. The game provides real-time updates, a visually dynamic interface, and responsive design for an engaging user experience.'
 							ghLink='https://github.com/Zahooruddin-dev/Youtube-Video-MP3-Converter-React'
 							demoLink='https://mizukamp3.vercel.app/'
