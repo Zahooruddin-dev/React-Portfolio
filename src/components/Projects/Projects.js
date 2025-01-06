@@ -39,7 +39,7 @@ function Projects() {
 						<ProjectCard
 							imgPath={mizukatypes}
 							isBlog={false}
-							title='Mizuka Types 2.0'
+							title='Mizuka Types '
 							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
