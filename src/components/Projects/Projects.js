@@ -88,6 +88,16 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={resturant}
+							isBlog={false}
+							title='Walk the wok'
+							description='Crafted an interactive and visually appealing restaurant website for Walk the Wok, designed to enhance the online booking experience and showcase the unique dining ambiance. Built using JavaScript, the platform features a dynamic menu display, reservation options, and an engaging interface that immerses customers in the restaurants vibe. Focused on providing a seamless user experience, with intuitive navigation and responsive design, ensuring accessibility across all devices. Highlighted the brands identity by combining aesthetics with functionality, making it easy for customers to explore the offerings and secure their reservations effortlessly.'
+							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
+							demoLink='https://walkthewok.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={crop}
 							isBlog={false}
 							title='Aspect Ratio Editor'
@@ -106,16 +116,7 @@ function Projects() {
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={resturant}
-							isBlog={false}
-							title='Walk the wok'
-							description='Crafted an interactive and visually appealing restaurant website for Walk the Wok, designed to enhance the online booking experience and showcase the unique dining ambiance. Built using JavaScript, the platform features a dynamic menu display, reservation options, and an engaging interface that immerses customers in the restaurants vibe. Focused on providing a seamless user experience, with intuitive navigation and responsive design, ensuring accessibility across all devices. Highlighted the brands identity by combining aesthetics with functionality, making it easy for customers to explore the offerings and secure their reservations effortlessly.'
-							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
-							demoLink='https://walkthewok.vercel.app/'
-						/>
-					</Col>
+				
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={gem}
