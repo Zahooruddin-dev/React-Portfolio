@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import random from '../../Assets/Projects/random-joke.png';
-import tenzies from '../../Assets/Projects/tenzies.png';
+import yt from '../../Assets/Projects/yt.png';
 import qr from '../../Assets/Projects/qr.png';
 import passwordGen from '../../Assets/Projects/passwordGen.png';
 import crop from '../../Assets/Projects/crop.png';
@@ -76,6 +76,16 @@ function Projects() {
 							demoLink='https://grower-sandy.vercel.app/'
 						/>
 					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={yt}
+							isBlog={false}
+							title='YT Service Provider'
+							description='Developed a visually captivating showcase website for a YouTube service provider specializing in Minecraft-themed designs and branding solutions. Built with a focus on clean aesthetics and intuitive navigation to highlight the range of services offered. The platform serves as a portfolio, showcasing past projects and creative capabilities, while ensuring a seamless browsing experience. Emphasized responsive design to cater to diverse devices and audiences, creating an engaging and professional digital presence tailored to attract content creators and gaming enthusiasts.'
+							ghLink='https://github.com/Zahooruddin-dev/Clinet-Portfolio-'
+							demoLink='https://clinet-portfolio.vercel.app/'
+						/>
+					</Col> */
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={dashboard}
@@ -160,16 +170,7 @@ function Projects() {
 					</Col>
 	
 					{/* 
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={random}
-							isBlog={false}
-							title='Random Joke Generator'
-							description='Created a random joke generator using JavaScript and API integration. The application fetches jokes from a public API, ensuring a diverse range of humor. Users receive a new joke with each interaction, with smooth UI/UX and responsive design for an engaging experience. Implemented features include random joke retrieval, error handling, and user-friendly interface.'
-							ghLink='https://github.com/Zahooruddin-dev/Random-joke-'
-							demoLink='https://joke-gamma.vercel.app/'
-						/>
-					</Col> */}
+				}
 					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mern}
