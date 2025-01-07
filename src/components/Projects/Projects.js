@@ -62,8 +62,8 @@ function Projects() {
 							title='Czech Cafe'
 							description='Built a sleek and user-friendly platform for a Czech café, focusing on showcasing the menu and providing a smooth user experience. Designed with modern web technologies to support features like an interactive menu display and an optional ordering system (added upon client request). To avoid spam orders, the demo version in my portfolio does not include an active ordering system. Ensured responsive design for accessibility across all devices while maintaining a polished, professional aesthetic'
 							ghLink='https://github.com/Zahooruddin-dev/Czech-Cafe'
-							demoLink='https://czech-cafe.vercel.app/'
-						/>
+							demoLink={() => alert('Demo is not available as per client request')}
+							/>
 					</Col>
 					
 					<Col md={4} className='project-card'>
