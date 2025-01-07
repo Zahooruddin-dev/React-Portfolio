@@ -14,7 +14,7 @@ import dashboard from '../../Assets/Projects/dashboard.png';
 import ChromeExtension from '../../Assets/Projects/ChromeExtension.png';
 import ticTacToe from '../../Assets/Projects/tik-tok-tak.png';
 import keep from '../../Assets/Projects/keep.png';
-import meme from '../../Assets/Projects/meme-maker.png';
+import czech from '../../Assets/Projects/czech-cafe.png';
 import grower from '../../Assets/Projects/grower.png';
 import yoga from '../../Assets/Projects/yoga.png';
 import sweeps from '../../Assets/Projects/sweeps.png';
@@ -53,6 +53,16 @@ function Projects() {
 							description='Built a sleek and user-friendly platform, Fresh Sweep, utilizing modern web technologies to offer cleaning services with ease. Designed to allow users to book appointments and make direct calls, providing a seamless and intuitive experience. Integrated a fully functional form powered by EmailJS to handle service inquiries efficiently. Focused on responsive design and clean aesthetics to ensure accessibility across all devices. Emphasized usability and polished functionality to cater to a wide audience while maintaining a professional and approachable interface.'
 							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
 							demoLink='https://clean-dream.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={czech}
+							isBlog={false}
+							title='Czech Cafe'
+							description='Built a sleek and user-friendly platform for a Czech café, focusing on showcasing the menu and providing a smooth user experience. Designed with modern web technologies to support features like an interactive menu display and an optional ordering system (added upon client request). To avoid spam orders, the demo version in my portfolio does not include an active ordering system. Ensured responsive design for accessibility across all devices while maintaining a polished, professional aesthetic'
+							ghLink='https://github.com/Zahooruddin-dev/Czech-Cafe'
+							demoLink='https://czech-cafe.vercel.app/'
 						/>
 					</Col>
 					
