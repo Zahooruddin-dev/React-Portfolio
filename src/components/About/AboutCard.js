@@ -9,7 +9,7 @@ function AboutCard() {
 				<blockquote className='blockquote mb-0'>
 					<p style={{ textAlign: 'justify' }}>
 						Hi Everyone, I am{' '}
-						<span className='purple'>Muhammad Zahooruddin </span>
+						<span className='purple'> Zahooruddin Nizamani </span>
 						from <span className='purple'> Hyderabad, Pakistan.</span>
 						<br />
 						<br />I completed high school with a focus on Computer Science and
