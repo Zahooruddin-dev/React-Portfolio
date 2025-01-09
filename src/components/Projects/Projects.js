@@ -9,7 +9,7 @@ import passwordGen from '../../Assets/Projects/passwordGen.png';
 import crop from '../../Assets/Projects/crop.png';
 import Snap from '../../Assets/Projects/Snap.png';
 import resturant from '../../Assets/Projects/resturant.png';
-import typing from '../../Assets/Projects/typing.png';
+import foam from '../../Assets/Projects/foramexperts.png';
 import dashboard from '../../Assets/Projects/dashboard.png';
 import czech from '../../Assets/Projects/czech-cafe.png';
 import grower from '../../Assets/Projects/grower.png';
@@ -40,6 +40,15 @@ function Projects() {
 							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>				<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={foam}
+							isBlog={false}
+							title='Foam Experts'
+							description='Developed a comprehensive service and appointment booking platform using React.js, focusing on user-centric design and functionality. Features included dynamic service packages, seamless appointment scheduling, and an intuitive service home interface. Integrated responsive design principles, ensuring accessibility across all devices. Leveraged React hooks and styled-components for modular, maintainable code. Enhanced user experience with persistent settings, real-time updates, and streamlined navigation, delivering a sleek and efficient solution for service-based businesses.'
+							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
+							demoLink='https://foamex-detaliing.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
