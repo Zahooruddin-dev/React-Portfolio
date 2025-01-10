@@ -7,7 +7,7 @@ import yt from '../../Assets/Projects/yt.png';
 import photographer from '../../Assets/Projects/photographer.png';
 import passwordGen from '../../Assets/Projects/passwordGen.png';
 import crop from '../../Assets/Projects/crop.png';
-import Snap from '../../Assets/Projects/Snap.png';
+import mizua from '../../Assets/Projects/mizua.png';
 import resturant from '../../Assets/Projects/resturant.png';
 import foam from '../../Assets/Projects/foramexperts.png';
 import dashboard from '../../Assets/Projects/dashboard.png';
@@ -40,6 +40,15 @@ function Projects() {
 							description='Developed a comprehensive service and appointment booking platform using React.js, focusing on user-centric design and functionality. Features included dynamic service packages, seamless appointment scheduling, and an intuitive service home interface. Integrated responsive design principles, ensuring accessibility across all devices. Leveraged React hooks and styled-components for modular, maintainable code. Enhanced user experience with persistent settings, real-time updates, and streamlined navigation, delivering a sleek and efficient solution for service-based businesses.'
 							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
 							demoLink='https://foamex-detaliing.vercel.app/'
+						/>
+					</Col>		<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={mizua}
+							isBlog={false}
+							title='M I Z U A'
+							description='Developed a dynamic landing page for Mizua Restaurant using React.js, emphasizing a user-friendly design and interactive features. The platform included a seamless table reservation system with a pop-up modal for booking, providing real-time table availability updates. The responsive design ensured an optimal user experience across devices, while leveraging React hooks and styled-components for maintainable, scalable code. The application offers an efficient, visually appealing solution for restaurant booking, with a clean layout, easy navigation, and accessible features tailored to customers needs.'
+							ghLink='https://github.com/Zahooruddin-dev/mizua'
+							demoLink='https://mizua.vercel.app//'
 						/>
 					</Col>	<Col md={4} className='project-card'>
 						<ProjectCard
