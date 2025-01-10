@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import random from '../../Assets/Projects/random-joke.png';
 import yt from '../../Assets/Projects/yt.png';
-import qr from '../../Assets/Projects/qr.png';
+import photographer from '../../Assets/Projects/photographer.png';
 import passwordGen from '../../Assets/Projects/passwordGen.png';
 import crop from '../../Assets/Projects/crop.png';
 import Snap from '../../Assets/Projects/Snap.png';
@@ -32,16 +32,7 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={mizukatypes}
-							isBlog={false}
-							title='Mizuka Types '
-							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
-							demoLink='https://mizuka-types-2-0.vercel.app/'
-						/>
-					</Col>				<Col md={4} className='project-card'>
+							<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={foam}
 							isBlog={false}
@@ -49,6 +40,15 @@ function Projects() {
 							description='Developed a comprehensive service and appointment booking platform using React.js, focusing on user-centric design and functionality. Features included dynamic service packages, seamless appointment scheduling, and an intuitive service home interface. Integrated responsive design principles, ensuring accessibility across all devices. Leveraged React hooks and styled-components for modular, maintainable code. Enhanced user experience with persistent settings, real-time updates, and streamlined navigation, delivering a sleek and efficient solution for service-based businesses.'
 							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
 							demoLink='https://foamex-detaliing.vercel.app/'
+						/>
+					</Col>	<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={photographer}
+							isBlog={false}
+							title='Photographer'
+							description='Developed a modern photographer portfolio and booking platform using React.js, emphasizing a visually appealing and user-friendly experience. Features included an interactive "About Me" section, a dynamic portfolio showcasing photography projects, and seamless "Contact Me" and "Hire Me" pages. Integrated responsive design principles to ensure the site is fully functional and visually appealing on all devices. Leveraged React hooks and styled-components to create modular and maintainable code. Enhanced user experience with intuitive navigation, persistent user preferences, and real-time appointment booking, delivering a polished and professional platform tailored for photographers.'
+							ghLink='https://github.com/Zahooruddin-dev/Photographer'
+							demoLink='https://photographer-bay-alpha.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -92,6 +92,16 @@ function Projects() {
 							demoLink='https://grower-sandy.vercel.app/'
 						/>
 					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={mizukatypes}
+							isBlog={false}
+							title='Mizuka Types '
+							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
+							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>	
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={yt}
