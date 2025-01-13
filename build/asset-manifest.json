@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.1e85954c.css",
-    "main.js": "/static/js/main.75b40990.js",
+    "main.js": "/static/js/main.75bb462f.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/grower.png": "/static/media/grower.a71a72c24231fa269977.png",
-    "static/media/yt.png": "/static/media/yt.753c9535520073a783f8.png",
     "static/media/resturant.png": "/static/media/resturant.bb6bf720561c214d2813.png",
-    "static/media/yoga.png": "/static/media/yoga.0f2a7cb9adf176d3b440.png",
-    "static/media/mizua.png": "/static/media/mizua.4e775ca9a3017501dbec.png",
-    "static/media/foramexperts.png": "/static/media/foramexperts.a1f8377f0104df7d4657.png",
-    "static/media/crop.png": "/static/media/crop.c9ba81162b5e89be9200.png",
-    "static/media/photographer.png": "/static/media/photographer.c381640845bab97b3a95.png",
-    "static/media/czech-cafe.png": "/static/media/czech-cafe.f5e7a322b9e05508eabf.png",
     "static/media/mp31.png": "/static/media/mp31.3439b0c150bc09a35a82.png",
     "static/media/dashboard.png": "/static/media/dashboard.0d6365be4ed17aff63bb.png",
+    "static/media/grower.jpg": "/static/media/grower.489f06f164f95610386e.jpg",
+    "static/media/yt.jpg": "/static/media/yt.82695807c61f4a83b7d3.jpg",
     "static/media/sweeps.png": "/static/media/sweeps.cec1fb22b9aa044592a0.png",
+    "static/media/yoga.jpg": "/static/media/yoga.0d06c580428ae4d02d7b.jpg",
+    "static/media/mizua.jpg": "/static/media/mizua.01cbd436897ada3c6301.jpg",
     "static/media/gem.png": "/static/media/gem.ad666e3ed7f30d4f21aa.png",
     "static/media/react-projects.png": "/static/media/react-projects.4fe371a505a282cb7a5d.png",
     "static/media/wiki.png": "/static/media/wiki.6e7d465c75e9d5090ece.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/foramexperts.jpg": "/static/media/foramexperts.5734afe17a0bbf42a6df.jpg",
+    "static/media/czech-cafe.jpg": "/static/media/czech-cafe.1155ce138640e61f3b92.jpg",
     "static/media/mizuka-types.png": "/static/media/mizuka-types.fbaf20414c82d1a37da7.png",
+    "static/media/photographer.jpg": "/static/media/photographer.3164bae94723069c70bb.jpg",
     "static/media/Resume.pdf.pdf": "/static/media/Resume.pdf.7ecded8da83a781d75fd.pdf",
+    "static/media/crop.jpg": "/static/media/crop.1a58bcd35ba9bf131611.jpg",
     "static/media/passwordGen.png": "/static/media/passwordGen.0ba9711a0de6f3ca3df3.png",
     "static/media/random-joke.png": "/static/media/random-joke.a5f3e9ae9bb58df89eef.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -30,12 +30,12 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.1e85954c.css.map": "/static/css/main.1e85954c.css.map",
-    "main.75b40990.js.map": "/static/js/main.75b40990.js.map",
+    "main.75bb462f.js.map": "/static/js/main.75bb462f.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e85954c.css",
-    "static/js/main.75b40990.js"
+    "static/js/main.75bb462f.js"
   ]
 }
