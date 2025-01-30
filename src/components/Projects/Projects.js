@@ -62,43 +62,12 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={sweeps}
-							isBlog={false}
-							title='Fresh Sweep'
-							description='Built a sleek and user-friendly platform, Fresh Sweep, utilizing modern web technologies to offer cleaning services with ease. Designed to allow users to book appointments and make direct calls, providing a seamless and intuitive experience. Integrated a fully functional form powered by EmailJS to handle service inquiries efficiently. Focused on responsive design and clean aesthetics to ensure accessibility across all devices. Emphasized usability and polished functionality to cater to a wide audience while maintaining a professional and approachable interface.'
-							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
-							demoLink='https://clean-dream.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
 							imgPath={czech}
 							isBlog={false}
 							title='Czech Cafe'
 							description='Built a sleek and user-friendly platform for a Czech café, focusing on showcasing the menu and providing a smooth user experience. Designed with modern web technologies to support features like an interactive menu display and an optional ordering system (added upon client request). To avoid spam orders, the demo version in my portfolio does not include an active ordering system. Ensured responsive design for accessibility across all devices while maintaining a polished, professional aesthetic'
 							ghLink='https://github.com/Zahooruddin-dev/Czech-Cafe'
 							demoLink='https://czech-cafe.vercel.app/'
-						/>
-					</Col>
-					
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={yoga}
-							isBlog={false}
-							title='Yoga Studio'
-							description='Built a sleek and modern Yoga Studio website using ReactJS, designed to showcase services and create a serene user experience. Integrated a booking and contact form to facilitate easy scheduling and inquiries, powered by responsive and user-friendly components. Emphasized a calming and professional design aesthetic, ensuring accessibility across all devices. Utilized Reacts state and props to manage dynamic content effectively, creating a seamless and polished interface. Focused on delivering a functional yet elegant solution that reflects the tranquil nature of the studios offerings.'
-							ghLink='https://github.com/Zahooruddin-dev/Yoga-Studio'
-							demoLink='https://yoga-studio-pi.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={grower}
-							isBlog={false}
-							title='G R O W E R'
-							description='Developed an elegant and responsive React-based platform to showcase consulting services for growers. Designed to streamline appointment scheduling and provide essential resources for clients. Integrated a user-friendly interface with features like a dynamic booking form powered by EmailJS for inquiries and seamless communication. Emphasized intuitive navigation, clean aesthetics, and cross-device compatibility to ensure accessibility and a professional user experience. Focused on delivering a polished and approachable digital presence tailored to the needs of the consulting company.'
-							ghLink='https://github.com/Zahooruddin-dev/Grower'
-							demoLink='https://grower-sandy.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -120,7 +89,41 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Clinet-Portfolio-'
 							demoLink='https://clinet-portfolio.vercel.app/'
 						/>
-					</Col> */
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={sweeps}
+							isBlog={false}
+							title='Fresh Sweep'
+							description='Built a sleek and user-friendly platform, Fresh Sweep, utilizing modern web technologies to offer cleaning services with ease. Designed to allow users to book appointments and make direct calls, providing a seamless and intuitive experience. Integrated a fully functional form powered by EmailJS to handle service inquiries efficiently. Focused on responsive design and clean aesthetics to ensure accessibility across all devices. Emphasized usability and polished functionality to cater to a wide audience while maintaining a professional and approachable interface.'
+							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
+							demoLink='https://clean-dream.vercel.app/'
+						/>
+					</Col>
+			
+					
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={yoga}
+							isBlog={false}
+							title='Yoga Studio'
+							description='Built a sleek and modern Yoga Studio website using ReactJS, designed to showcase services and create a serene user experience. Integrated a booking and contact form to facilitate easy scheduling and inquiries, powered by responsive and user-friendly components. Emphasized a calming and professional design aesthetic, ensuring accessibility across all devices. Utilized Reacts state and props to manage dynamic content effectively, creating a seamless and polished interface. Focused on delivering a functional yet elegant solution that reflects the tranquil nature of the studios offerings.'
+							ghLink='https://github.com/Zahooruddin-dev/Yoga-Studio'
+							demoLink='https://yoga-studio-pi.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={grower}
+							isBlog={false}
+							title='G R O W E R'
+							description='Developed an elegant and responsive React-based platform to showcase consulting services for growers. Designed to streamline appointment scheduling and provide essential resources for clients. Integrated a user-friendly interface with features like a dynamic booking form powered by EmailJS for inquiries and seamless communication. Emphasized intuitive navigation, clean aesthetics, and cross-device compatibility to ensure accessibility and a professional user experience. Focused on delivering a polished and approachable digital presence tailored to the needs of the consulting company.'
+							ghLink='https://github.com/Zahooruddin-dev/Grower'
+							demoLink='https://grower-sandy.vercel.app/'
+						/>
+					</Col>
+				
+				 */
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={dashboard}
@@ -173,7 +176,7 @@ function Projects() {
 							demoLink='https://mizukagemini.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
+				{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={reactPorjects}
 							isBlog={false}
@@ -192,7 +195,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Youtube-Video-MP3-Converter-React'
 							demoLink='https://mizukamp3.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={passwordGen}
