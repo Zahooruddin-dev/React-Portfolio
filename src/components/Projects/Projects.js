@@ -52,16 +52,6 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={Mizs}
-							isBlog={false}
-							title='MizScribe'
-							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
-							demoLink='https://mizscribe.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
 							imgPath={mizua}
 							isBlog={false}
 							title='M I Z U A'
@@ -69,7 +59,9 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/mizua'
 							demoLink='https://mizua.vercel.app//'
 						/>
-					</Col>{' '}
+					</Col>
+			
+		{' '}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={photographer}
@@ -78,6 +70,16 @@ function Projects() {
 							description='Developed a modern photographer portfolio and booking platform using React.js, emphasizing a visually appealing and user-friendly experience. Features included an interactive "About Me" section, a dynamic portfolio showcasing photography projects, and seamless "Contact Me" and "Hire Me" pages. Integrated responsive design principles to ensure the site is fully functional and visually appealing on all devices. Leveraged React hooks and styled-components to create modular and maintainable code. Enhanced user experience with intuitive navigation, persistent user preferences, and real-time appointment booking, delivering a polished and professional platform tailored for photographers.'
 							ghLink='https://github.com/Zahooruddin-dev/Photographer'
 							demoLink='https://photographer-bay-alpha.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={Mizs}
+							isBlog={false}
+							title='MizScribe'
+							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
+							demoLink='https://mizscribe.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>

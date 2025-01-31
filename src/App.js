@@ -19,19 +19,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
-  const [load, upadateLoad] = useState(true);
-  
-// Must use useEffect otherwise the siting will have weird sideEffects
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
 
-  
   return (
     <Router>
       <Preloader load={load} />
@@ -43,7 +39,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
       </div>

@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.1e85954c.css",
-    "main.js": "/static/js/main.2bf0577a.js",
+    "main.js": "/static/js/main.f4c9eda2.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/resturant.png": "/static/media/resturant.bb6bf720561c214d2813.png",
+    "static/media/mizscribe.png": "/static/media/mizscribe.5ead74d139ef0099e27f.png",
     "static/media/dashboard.png": "/static/media/dashboard.0d6365be4ed17aff63bb.png",
     "static/media/grower.jpg": "/static/media/grower.489f06f164f95610386e.jpg",
     "static/media/yt.jpg": "/static/media/yt.82695807c61f4a83b7d3.jpg",
@@ -23,17 +24,16 @@
     "static/media/passwordGen.png": "/static/media/passwordGen.0ba9711a0de6f3ca3df3.png",
     "static/media/random-joke.png": "/static/media/random-joke.a5f3e9ae9bb58df89eef.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/mizscribe.png": "/static/media/mizscribe.70beedb68128ee662037.png",
     "static/media/avatarme2.svg": "/static/media/avatarme2.d9da3e2c4824fd6604fe1197024ef289.svg",
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.1e85954c.css.map": "/static/css/main.1e85954c.css.map",
-    "main.2bf0577a.js.map": "/static/js/main.2bf0577a.js.map",
+    "main.f4c9eda2.js.map": "/static/js/main.f4c9eda2.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e85954c.css",
-    "static/js/main.2bf0577a.js"
+    "static/js/main.f4c9eda2.js"
   ]
 }
