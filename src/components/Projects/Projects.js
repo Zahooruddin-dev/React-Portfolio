@@ -13,13 +13,11 @@ import foam from '../../Assets/Projects/foramexperts.jpg';
 import dashboard from '../../Assets/Projects/dashboard.png';
 import czech from '../../Assets/Projects/czech-cafe.jpg';
 import grower from '../../Assets/Projects/grower.jpg';
-import yoga from '../../Assets/Projects/yoga.jpg';
+import Mizs from '../../Assets/Projects/mizscribe.png';
 import sweeps from '../../Assets/Projects/sweeps.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
-import mp3 from '../../Assets/Projects/mp31.png';
 import gem from '../../Assets/Projects/gem.png';
-import reactPorjects from '../../Assets/Projects/react-projects.png';
 function Projects() {
 	return (
 		<Container fluid className='project-section'>
@@ -32,7 +30,7 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-							<Col md={4} className='project-card'>
+					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={foam}
 							isBlog={false}
@@ -41,7 +39,28 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
 							demoLink='https://foamex-detaliing.vercel.app/'
 						/>
-					</Col>		<Col md={4} className='project-card'>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={mizukatypes}
+							isBlog={false}
+							title='Mizuka Types '
+							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
+							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={Mizs}
+							isBlog={false}
+							title='MizScribe'
+							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
+							demoLink='https://mizscribe.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={mizua}
 							isBlog={false}
@@ -50,7 +69,8 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/mizua'
 							demoLink='https://mizua.vercel.app//'
 						/>
-					</Col>	<Col md={4} className='project-card'>
+					</Col>{' '}
+					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={photographer}
 							isBlog={false}
@@ -72,16 +92,6 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={mizukatypes}
-							isBlog={false}
-							title='Mizuka Types '
-							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
-							demoLink='https://mizuka-types-2-0.vercel.app/'
-						/>
-					</Col>	
-					<Col md={4} className='project-card'>
-						<ProjectCard
 							imgPath={yt}
 							isBlog={false}
 							title='YT Service Provider'
@@ -90,7 +100,7 @@ function Projects() {
 							demoLink='https://clinet-portfolio.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
+					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={sweeps}
 							isBlog={false}
@@ -99,19 +109,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
 							demoLink='https://clean-dream.vercel.app/'
 						/>
-					</Col>
-			
-					
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={yoga}
-							isBlog={false}
-							title='Yoga Studio'
-							description='Built a sleek and modern Yoga Studio website using ReactJS, designed to showcase services and create a serene user experience. Integrated a booking and contact form to facilitate easy scheduling and inquiries, powered by responsive and user-friendly components. Emphasized a calming and professional design aesthetic, ensuring accessibility across all devices. Utilized Reacts state and props to manage dynamic content effectively, creating a seamless and polished interface. Focused on delivering a functional yet elegant solution that reflects the tranquil nature of the studios offerings.'
-							ghLink='https://github.com/Zahooruddin-dev/Yoga-Studio'
-							demoLink='https://yoga-studio-pi.vercel.app/'
-						/>
-					</Col>
+					</Col> */}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={grower}
@@ -122,8 +120,7 @@ function Projects() {
 							demoLink='https://grower-sandy.vercel.app/'
 						/>
 					</Col>
-				
-				 */
+					*/
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={dashboard}
@@ -164,7 +161,6 @@ function Projects() {
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
 					</Col>
-				
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={gem}
@@ -176,7 +172,7 @@ function Projects() {
 							demoLink='https://mizukagemini.vercel.app/'
 						/>
 					</Col>
-				{/* 	<Col md={4} className='project-card'>
+					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={reactPorjects}
 							isBlog={false}
@@ -196,7 +192,7 @@ function Projects() {
 							demoLink='https://mizukamp3.vercel.app/'
 						/>
 					</Col> */}
-					<Col md={4} className='project-card'>
+					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={passwordGen}
 							isBlog={false}
@@ -205,8 +201,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Password-Generator-'
 							demoLink='https://password-generator-beta-rust-14.vercel.app/'
 						/>
-					</Col>
-	
+					</Col> */}
 					{/* 
 				}
 					{/* 	<Col md={4} className='project-card'>
