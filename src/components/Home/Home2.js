@@ -4,13 +4,9 @@ import myImg from '../../Assets/avatarme2.svg';
 import Tilt from 'react-parallax-tilt';
 import {
 	AiFillGithub,
-	AiOutlineTwitter,
 	AiFillInstagram,
 } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-function noTwitter() {
-	alert("I don't have any public Twitter Accounts");
-}
 function Home2() {
 	return (
 		<Container fluid className='home-about-section' id='about'>
@@ -49,7 +45,7 @@ function Home2() {
 							<br />
 							<br />
 							Whenever possible, I also apply my passion for developing products
-							with <b className='purple'>Unity</b> and
+							with <b className='purple'>LLMs</b> and
 							<i>
 								<b className='purple'>
 									{' '}
@@ -95,16 +91,7 @@ function Home2() {
 									<AiFillGithub />
 								</a>
 							</li>
-							<li className='social-icons'>
-								<a
-									onClick={noTwitter}
-									target=''
-									rel='noreferrer'
-									className='icon-colour  home-social-icons'
-								>
-									<AiOutlineTwitter />
-								</a>
-							</li>
+						
 							<li className='social-icons'>
 								<a
 									href='https://www.linkedin.com/in/muhammad-zahooruddin-nizamani-844a58274/?originalSubdomain=pk'

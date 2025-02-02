@@ -1,19 +1,13 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import {
-	SiVisualstudiocode,
-	SiPostman,
-	SiSlack,
 	SiVercel,
-	SiMacos,
-	SiWindows,
 	SiUnity,
 	SiGithub,
 	SiChatbot,
 	SiScrimba,
 	SiStackoverflow,
 	SiGoogle,
-	SiMozilla,
 	SiGamedeveloper,
 	SiMdnwebdocs,
 	SiNetlify,
@@ -24,16 +18,6 @@ import {
 function Toolstack() {
 	return (
 		<Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-			{/*  <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
-      </Col>
- 
-      
-   
-    
-            <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
-      </Col>*/}
 			<Col xs={4} md={2} className='tech-icons'>
 				<SiUnity />
 			</Col>

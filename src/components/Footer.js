@@ -2,13 +2,9 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import {
 	AiFillGithub,
-	AiOutlineTwitter,
 	AiFillInstagram,
 } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-function noTwitter() {
-	alert("I don't have any public Twitter Accounts");
-}
 function Footer() {
 	let date = new Date();
 	let year = date.getFullYear();
@@ -16,7 +12,7 @@ function Footer() {
 		<Container fluid className='footer'>
 			<Row>
 				<Col md='4' className='footer-copywright'>
-					<h3>Developed by Muhammad Zahooruddin</h3>
+					<h3>Developed by Muhammad Zahooruddin Nizamani</h3>
 				</Col>
 				<Col md='4' className='footer-copywright'>
 					<h3>Copyright © {year} MZ</h3>
@@ -31,16 +27,6 @@ function Footer() {
 								rel='noopener noreferrer'
 							>
 								<AiFillGithub />
-							</a>
-						</li>
-						<li className='social-icons'>
-							<a
-								style={{ color: 'white' }}
-								target=''
-								onClick={noTwitter}
-								rel='noopener noreferrer'
-							>
-								<AiOutlineTwitter />
 							</a>
 						</li>
 						<li className='social-icons'>

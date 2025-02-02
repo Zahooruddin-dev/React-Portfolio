@@ -2,22 +2,19 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import random from '../../Assets/Projects/random-joke.png';
 import yt from '../../Assets/Projects/yt.jpg';
 import photographer from '../../Assets/Projects/photographer.jpg';
-import passwordGen from '../../Assets/Projects/passwordGen.png';
+import reactPorjects from '../../Assets/Projects/mizEditor.jpg';
 import crop from '../../Assets/Projects/crop.jpg';
 import mizua from '../../Assets/Projects/mizua.jpg';
-import resturant from '../../Assets/Projects/resturant.png';
+import resturant from '../../Assets/Projects/resturant.jpg';
 import foam from '../../Assets/Projects/foramexperts.jpg';
-import dashboard from '../../Assets/Projects/dashboard.png';
-import czech from '../../Assets/Projects/czech-cafe.jpg';
-import grower from '../../Assets/Projects/grower.jpg';
-import Mizs from '../../Assets/Projects/mizscribe.png';
-import sweeps from '../../Assets/Projects/sweeps.png';
+import dashboard from '../../Assets/Projects/dashboard.jpg';
+import Mizs from '../../Assets/Projects/mizscribe.jpg';
+import MultiLLm from '../../Assets/Projects/multillm.jpg';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
-import gem from '../../Assets/Projects/gem.png';
+import gem from '../../Assets/Projects/gem.jpg';
 function Projects() {
 	return (
 		<Container fluid className='project-section'>
@@ -32,12 +29,13 @@ function Projects() {
 				<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={foam}
+							imgPath={MultiLLm}
 							isBlog={false}
-							title='Foam Experts'
-							description='Developed a comprehensive service and appointment booking platform using React.js, focusing on user-centric design and functionality. Features included dynamic service packages, seamless appointment scheduling, and an intuitive service home interface. Integrated responsive design principles, ensuring accessibility across all devices. Leveraged React hooks and styled-components for modular, maintainable code. Enhanced user experience with persistent settings, real-time updates, and streamlined navigation, delivering a sleek and efficient solution for service-based businesses.'
-							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
-							demoLink='https://foamex-detaliing.vercel.app/'
+							title='MULTI LLM AI ASSISTANT'
+							description='Built a cutting-edge AI assistant platform using React.js, allowing users to interact with multiple LLMs in one place. The system supports Meta Llama, DeepSeek, OpenAI, Gemini, Claude, Rogue, and many more, enabling seamless selection and comparison of responses from different AI models. Users can easily identify which LLM generated each response, ensuring transparency and flexibility. The platform is optimized for performance, featuring an intuitive UI, real-time updates, and a scalable architecture to handle diverse AI interactions efficiently.'
+							ghLink='https://github.com/Zahooruddin-dev/MULTI-LLM-CHATBOT'
+							/* 							demoLink='https://photographer-bay-alpha.vercel.app/'
+							 */
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -52,6 +50,16 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={Mizs}
+							isBlog={false}
+							title='MizScribe'
+							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
+							demoLink='https://mizscribe.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={mizua}
 							isBlog={false}
 							title='M I Z U A'
@@ -59,9 +67,17 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/mizua'
 							demoLink='https://mizua.vercel.app//'
 						/>
+					</Col>{' '}
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={foam}
+							isBlog={false}
+							title='Foam Experts'
+							description='Developed a comprehensive service and appointment booking platform using React.js, focusing on user-centric design and functionality. Features included dynamic service packages, seamless appointment scheduling, and an intuitive service home interface. Integrated responsive design principles, ensuring accessibility across all devices. Leveraged React hooks and styled-components for modular, maintainable code. Enhanced user experience with persistent settings, real-time updates, and streamlined navigation, delivering a sleek and efficient solution for service-based businesses.'
+							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
+							demoLink='https://foamex-detaliing.vercel.app/'
+						/>
 					</Col>
-			
-		{' '}
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={photographer}
@@ -74,63 +90,12 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={Mizs}
-							isBlog={false}
-							title='MizScribe'
-							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
-							demoLink='https://mizscribe.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={czech}
-							isBlog={false}
-							title='Czech Cafe'
-							description='Built a sleek and user-friendly platform for a Czech café, focusing on showcasing the menu and providing a smooth user experience. Designed with modern web technologies to support features like an interactive menu display and an optional ordering system (added upon client request). To avoid spam orders, the demo version in my portfolio does not include an active ordering system. Ensured responsive design for accessibility across all devices while maintaining a polished, professional aesthetic'
-							ghLink='https://github.com/Zahooruddin-dev/Czech-Cafe'
-							demoLink='https://czech-cafe.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
 							imgPath={yt}
 							isBlog={false}
 							title='YT Service Provider'
 							description='Developed a visually captivating showcase website for a YouTube service provider specializing in Minecraft-themed designs and branding solutions. Built with a focus on clean aesthetics and intuitive navigation to highlight the range of services offered. The platform serves as a portfolio, showcasing past projects and creative capabilities, while ensuring a seamless browsing experience. Emphasized responsive design to cater to diverse devices and audiences, creating an engaging and professional digital presence tailored to attract content creators and gaming enthusiasts.'
 							ghLink='https://github.com/Zahooruddin-dev/Clinet-Portfolio-'
 							demoLink='https://clinet-portfolio.vercel.app/'
-						/>
-					</Col>
-					{/* <Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={sweeps}
-							isBlog={false}
-							title='Fresh Sweep'
-							description='Built a sleek and user-friendly platform, Fresh Sweep, utilizing modern web technologies to offer cleaning services with ease. Designed to allow users to book appointments and make direct calls, providing a seamless and intuitive experience. Integrated a fully functional form powered by EmailJS to handle service inquiries efficiently. Focused on responsive design and clean aesthetics to ensure accessibility across all devices. Emphasized usability and polished functionality to cater to a wide audience while maintaining a professional and approachable interface.'
-							ghLink='https://github.com/Zahooruddin-dev/Clean-Dream'
-							demoLink='https://clean-dream.vercel.app/'
-						/>
-					</Col> */}
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={grower}
-							isBlog={false}
-							title='G R O W E R'
-							description='Developed an elegant and responsive React-based platform to showcase consulting services for growers. Designed to streamline appointment scheduling and provide essential resources for clients. Integrated a user-friendly interface with features like a dynamic booking form powered by EmailJS for inquiries and seamless communication. Emphasized intuitive navigation, clean aesthetics, and cross-device compatibility to ensure accessibility and a professional user experience. Focused on delivering a polished and approachable digital presence tailored to the needs of the consulting company.'
-							ghLink='https://github.com/Zahooruddin-dev/Grower'
-							demoLink='https://grower-sandy.vercel.app/'
-						/>
-					</Col>
-					*/
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={dashboard}
-							isBlog={false}
-							title='Dashboard UI'
-							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
-							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
-							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -145,6 +110,26 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={wiki}
+							isBlog={false}
+							title='Wikipedia Simplified'
+							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
+							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
+							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={reactPorjects}
+							isBlog={false}
+							title='Miz Photo Editor'
+							description='Developed a feature-rich photo editing tool using React.js, offering real-time adjustments with an intuitive UI. Supports a wide range of filters, including brightness, contrast, saturation, and advanced color effects. Users can transform images with rotation, zoom, flipping, and perspective controls. Export options include multiple formats (PNG, JPEG, WebP, GIF) with adjustable quality settings. Designed for performance and user experience, ensuring smooth interactions and precise edits.'
+							ghLink='https://github.com/Zahooruddin-dev/Miz-Photo_Editor'
+							demoLink='https://miz-photo-editor.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={crop}
 							isBlog={false}
 							title='Aspect Ratio Editor'
@@ -155,12 +140,12 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={wiki}
+							imgPath={dashboard}
 							isBlog={false}
-							title='Wikipedia Simplified'
-							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
-							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
-							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
+							title='Dashboard UI'
+							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
+							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
+							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -174,112 +159,6 @@ function Projects() {
 							demoLink='https://mizukagemini.vercel.app/'
 						/>
 					</Col>
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={reactPorjects}
-							isBlog={false}
-							title='Multi Project'
-							description='Developed an interactive React project that features a collection of UI components to enhance user experience. Utilized JavaScript and React for dynamic state management and responsive design across devices. Key components include a counter, accordion, tabs, modal dialogs, filterable galleries, and sticky headers. Implemented intuitive navigation and user-friendly buttons for actions like loading more content and returning to the top of the page. This project demonstrates advanced React techniques and serves as a practical resource for creating engaging web applications.'
-							ghLink='https://github.com/Zahooruddin-dev/React.js-Projects-Singal-pade'
-							demoLink='https://vercel.live/link/react-js-projects-singal-pade.vercel.app?via=project-dashboard-alias-list&p=1'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={mp3}
-							isBlog={false}
-							title='YT music downloader'
-							description='This is a web-based version of the classic Tenzies dice game, implemented using React. The goal of the game is to roll ten dice and match them all to the same number. Players can selectively hold certain dice between rolls, using strategy to reach the goal efficiently. The game provides real-time updates, a visually dynamic interface, and responsive design for an engaging user experience.'
-							ghLink='https://github.com/Zahooruddin-dev/Youtube-Video-MP3-Converter-React'
-							demoLink='https://mizukamp3.vercel.app/'
-						/>
-					</Col> */}
-					{/* <Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={passwordGen}
-							isBlog={false}
-							title='Pass Encrypt '
-							description='Developed a versatile password generator tool with customizable options for length, complexity, and character types. Utilized modern JavaScript for dynamic interactions and real-time password generation, ensuring user-friendly customization of passwords while adhering to best practices in security. Implemented robust error handling and validation to enhance user experience and reliability.'
-							ghLink='https://github.com/Zahooruddin-dev/Password-Generator-'
-							demoLink='https://password-generator-beta-rust-14.vercel.app/'
-						/>
-					</Col> */}
-					{/* 
-				}
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={mern}
-							isBlog={false}
-							title='MERN BLOG APP'
-							description='A simple MERN blog web app for learning'
-							ghLink='https://github.com/Zahooruddin-dev/MERN-Blog'
-							demoLink='https://mern-blog-five-rho.vercel.app/add-blog'
-						/>
-					</Col> */}{' '}
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={typing}
-							isBlog={false}
-							title='Typing Website'
-							description='A simple typing website that I was made while my Go to site monkeyType was down using Vanila JS. '
-							ghLink='https://github.com/Zahooruddin-dev/Typing-game?tab=readme-ov-file'
-							demoLink='https://mizukatype.vercel.app/'
-						/>
-					</Col> */}
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={randomPicker}
-							isBlog={false}
-							title='Random Picker'
-							description='A site that I made so we could randomly pick between three choices and not have to think about it.'
-							ghLink='https://github.com/Zahooruddin-dev/Random-picker'
-							demoLink='https://random-picker-five.vercel.app/'
-						/>
-					</Col> */}
-					{/* 					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={ticTacToe}
-							isBlog={false}
-							title='Tik Tac Toe'
-							description='A simple web app game Tic tac toe which is clean and easily playable on both mobile and PC'
-							ghLink='https://github.com/Zahooruddin-dev/ticktok'
-							demoLink='https://ticktoking.netlify.app/'
-						/>
-					</Col>
-
-		*/}
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={ChromeExtension}
-							isBlog={false}
-							title='Chrome Extension'
-							description='A input taker and current tab copy extension and storing it in local storage'
-							ghLink='https://github.com/Zahooruddin-dev/Chrome-extenesion'
-							demoLink='https://chrome-extenesion.vercel.app/'
-						/>
-					</Col> */}
-					{/* 
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={meme}
-							isBlog={false}
-							title='Meme Maker'
-							description='You can genearte meme Images by genearting new pictures and putting top and bottom Text.'
-							ghLink='https://github.com/Zahooruddin-dev/meme-generaor'
-							demoLink='https://meme-generaor.vercel.app/'
-						/>
-					</Col> */}
-					{/* <Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={keep}
-							isBlog={false}
-							title='K E E P '
-							description='A simple notes app'
-							ghLink='https://github.com/Zahooruddin-dev/GoogleKeepNotes-Vanila-JS-Practice'
-							demoLink='https://google-keep-notes-vanila-js-practice.vercel.app/'
-						/>
-					</Col>
- */}
 				</Row>
 			</Container>
 		</Container>
