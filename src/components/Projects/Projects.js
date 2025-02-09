@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import yt from '../../Assets/Projects/yt.jpg';
-import photographer from '../../Assets/Projects/photographer.jpg';
+/* import yt from '../../Assets/Projects/yt.jpg';
+ */import photographer from '../../Assets/Projects/photographer.jpg';/* 
 import reactPorjects from '../../Assets/Projects/mizEditor.jpg';
-import crop from '../../Assets/Projects/crop.jpg';
+import crop from '../../Assets/Projects/crop.jpg'; */
 import mizua from '../../Assets/Projects/mizua.jpg';
 import resturant from '../../Assets/Projects/resturant.jpg';
 import foam from '../../Assets/Projects/foramexperts.jpg';
@@ -14,8 +14,8 @@ import Mizs from '../../Assets/Projects/mizscribe.jpg';
 import MultiLLm from '../../Assets/Projects/multillm.jpg';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
-import gem from '../../Assets/Projects/gem.jpg';
-function Projects() {
+/* import gem from '../../Assets/Projects/gem.jpg';
+ */function Projects() {
 	return (
 		<Container fluid className='project-section'>
 			<Particle />
@@ -90,16 +90,6 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={yt}
-							isBlog={false}
-							title='YT Service Provider'
-							description='Developed a visually captivating showcase website for a YouTube service provider specializing in Minecraft-themed designs and branding solutions. Built with a focus on clean aesthetics and intuitive navigation to highlight the range of services offered. The platform serves as a portfolio, showcasing past projects and creative capabilities, while ensuring a seamless browsing experience. Emphasized responsive design to cater to diverse devices and audiences, creating an engaging and professional digital presence tailored to attract content creators and gaming enthusiasts.'
-							ghLink='https://github.com/Zahooruddin-dev/Clinet-Portfolio-'
-							demoLink='https://clinet-portfolio.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
 							imgPath={resturant}
 							isBlog={false}
 							title='Walk the wok'
@@ -120,6 +110,26 @@ function Projects() {
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={dashboard}
+							isBlog={false}
+							title='Dashboard UI'
+							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
+							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
+							demoLink='https://dashbaord-react-three.vercel.app/'
+						/>
+					</Col>
+					{/* 	<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={yt}
+							isBlog={false}
+							title='YT Service Provider'
+							description='Developed a visually captivating showcase website for a YouTube service provider specializing in Minecraft-themed designs and branding solutions. Built with a focus on clean aesthetics and intuitive navigation to highlight the range of services offered. The platform serves as a portfolio, showcasing past projects and creative capabilities, while ensuring a seamless browsing experience. Emphasized responsive design to cater to diverse devices and audiences, creating an engaging and professional digital presence tailored to attract content creators and gaming enthusiasts.'
+							ghLink='https://github.com/Zahooruddin-dev/Clinet-Portfolio-'
+							demoLink='https://clinet-portfolio.vercel.app/'
+						/>
+					</Col> */}
+					{/* 	<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={reactPorjects}
 							isBlog={false}
 							title='Miz Photo Editor'
@@ -137,18 +147,8 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
 							demoLink='https://crop-image-flax.vercel.app/'
 						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={dashboard}
-							isBlog={false}
-							title='Dashboard UI'
-							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
-							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
-							demoLink='https://dashbaord-react-three.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
+					</Col> */}
+					{/* <Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={gem}
 							isBlog={false}
@@ -158,7 +158,7 @@ function Projects() {
 							ghLink='https://github.com/Zahooruddin-dev/Gemini-React'
 							demoLink='https://mizukagemini.vercel.app/'
 						/>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 		</Container>
