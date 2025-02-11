@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-/* import yt from '../../Assets/Projects/yt.jpg';
- */import photographer from '../../Assets/Projects/photographer.jpg';/* 
+import Aethos from '../../Assets/Projects/aethos.jpg';
+import photographer from '../../Assets/Projects/photographer.jpg'; /* 
 import reactPorjects from '../../Assets/Projects/mizEditor.jpg';
 import crop from '../../Assets/Projects/crop.jpg'; */
 import mizua from '../../Assets/Projects/mizua.jpg';
@@ -15,7 +15,7 @@ import MultiLLm from '../../Assets/Projects/multillm.jpg';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 /* import gem from '../../Assets/Projects/gem.jpg';
- */function Projects() {
+ */ function Projects() {
 	return (
 		<Container fluid className='project-section'>
 			<Particle />
@@ -29,6 +29,16 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 				<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
 					<Col md={4} className='project-card'>
 						<ProjectCard
+							imgPath={mizukatypes}
+							isBlog={false}
+							title='Mizuka Types '
+							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
+							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
 							imgPath={MultiLLm}
 							isBlog={false}
 							title='MULTI LLM AI ASSISTANT'
@@ -40,22 +50,13 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={mizukatypes}
+							imgPath={Aethos}
 							isBlog={false}
-							title='Mizuka Types '
-							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
-							demoLink='https://mizuka-types-2-0.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={Mizs}
-							isBlog={false}
-							title='MizScribe'
-							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
-							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
-							demoLink='https://mizscribe.vercel.app/'
+							title='Aethos (Fusion AI Model)'
+							description='Developed an innovative chat application that integrates advanced AI capabilities for enhanced user interaction. The platform leverages the Fusion AI model to provide intelligent, context-aware responses, ensuring a seamless and engaging chat experience. Implemented a robust translation feature to support multiple languages, enhancing accessibility for diverse users. The application features a user-friendly interface with a responsive design, allowing for intuitive navigation across devices. Utilized modern technologies such as React, Firebase for authentication, and various libraries for PDF generation and Markdown rendering, creating a comprehensive solution tailored for effective communication and collaboration. The project emphasizes performance, reliability, and user satisfaction, making it an ideal tool for content creators and users seeking interactive chat experiences.'
+							ghLink='https://github.com/Zahooruddin-dev/Aethos'
+							/* 							demoLink='https://clinet-portfolio.vercel.app/'
+							 */
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -90,12 +91,12 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={resturant}
+							imgPath={Mizs}
 							isBlog={false}
-							title='Walk the wok'
-							description='Crafted an interactive and visually appealing restaurant website for Walk the Wok, designed to enhance the online booking experience and showcase the unique dining ambiance. Built using JavaScript, the platform features a dynamic menu display, reservation options, and an engaging interface that immerses customers in the restaurants vibe. Focused on providing a seamless user experience, with intuitive navigation and responsive design, ensuring accessibility across all devices. Highlighted the brands identity by combining aesthetics with functionality, making it easy for customers to explore the offerings and secure their reservations effortlessly.'
-							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
-							demoLink='https://walkthewok.vercel.app/'
+							title='MizScribe'
+							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
+							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
+							demoLink='https://mizscribe.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -118,16 +119,17 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
-					{/* 	<Col md={4} className='project-card'>
+					<Col md={4} className='project-card'>
 						<ProjectCard
-							imgPath={yt}
+							imgPath={resturant}
 							isBlog={false}
-							title='YT Service Provider'
-							description='Developed a visually captivating showcase website for a YouTube service provider specializing in Minecraft-themed designs and branding solutions. Built with a focus on clean aesthetics and intuitive navigation to highlight the range of services offered. The platform serves as a portfolio, showcasing past projects and creative capabilities, while ensuring a seamless browsing experience. Emphasized responsive design to cater to diverse devices and audiences, creating an engaging and professional digital presence tailored to attract content creators and gaming enthusiasts.'
-							ghLink='https://github.com/Zahooruddin-dev/Clinet-Portfolio-'
-							demoLink='https://clinet-portfolio.vercel.app/'
+							title='Walk the wok'
+							description='Crafted an interactive and visually appealing restaurant website for Walk the Wok, designed to enhance the online booking experience and showcase the unique dining ambiance. Built using JavaScript, the platform features a dynamic menu display, reservation options, and an engaging interface that immerses customers in the restaurants vibe. Focused on providing a seamless user experience, with intuitive navigation and responsive design, ensuring accessibility across all devices. Highlighted the brands identity by combining aesthetics with functionality, making it easy for customers to explore the offerings and secure their reservations effortlessly.'
+							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
+							demoLink='https://walkthewok.vercel.app/'
 						/>
-					</Col> */}
+					</Col>
+					{/* 	*/}
 					{/* 	<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={reactPorjects}

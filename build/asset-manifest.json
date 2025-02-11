@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e85954c.css",
-    "main.js": "/static/js/main.44a4d22a.js",
+    "main.js": "/static/js/main.91c67f5d.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/wiki.png": "/static/media/wiki.6e7d465c75e9d5090ece.png",
@@ -11,6 +11,7 @@
     "static/media/Resume.pdf.pdf": "/static/media/Resume.pdf.8d5abd9302cb6089d950.pdf",
     "static/media/mizuka-types.png": "/static/media/mizuka-types.fbaf20414c82d1a37da7.png",
     "static/media/resturant.jpg": "/static/media/resturant.404768c70a8c49e04bc9.jpg",
+    "static/media/aethos.jpg": "/static/media/aethos.5b0d7eec22c1f9516b43.jpg",
     "static/media/multillm.jpg": "/static/media/multillm.9b49ecc7b3bbdb635850.jpg",
     "static/media/dashboard.jpg": "/static/media/dashboard.a40a28cc3b34bd3fd769.jpg",
     "static/media/mizua.jpg": "/static/media/mizua.f79eea5a2c2d1f478819.jpg",
@@ -20,12 +21,12 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.1e85954c.css.map": "/static/css/main.1e85954c.css.map",
-    "main.44a4d22a.js.map": "/static/js/main.44a4d22a.js.map",
+    "main.91c67f5d.js.map": "/static/js/main.91c67f5d.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e85954c.css",
-    "static/js/main.44a4d22a.js"
+    "static/js/main.91c67f5d.js"
   ]
 }
