@@ -3,9 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import Aethos from '../../Assets/Projects/aethos.jpg';
-import photographer from '../../Assets/Projects/photographer.jpg'; /* 
-import reactPorjects from '../../Assets/Projects/mizEditor.jpg';
-import crop from '../../Assets/Projects/crop.jpg'; */
+import photographer from '../../Assets/Projects/photographer.jpg'; 
 import mizua from '../../Assets/Projects/mizua.jpg';
 import resturant from '../../Assets/Projects/resturant.jpg';
 import foam from '../../Assets/Projects/foramexperts.jpg';
@@ -14,8 +12,7 @@ import Mizs from '../../Assets/Projects/mizscribe.jpg';
 import MultiLLm from '../../Assets/Projects/multillm.jpg';
 import wiki from '../../Assets/Projects/wiki.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
-/* import gem from '../../Assets/Projects/gem.jpg';
- */ function Projects() {
+ function Projects() {
 	return (
 		<Container fluid className='project-section'>
 			<Particle />
@@ -129,38 +126,6 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							demoLink='https://walkthewok.vercel.app/'
 						/>
 					</Col>
-					{/* 	*/}
-					{/* 	<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={reactPorjects}
-							isBlog={false}
-							title='Miz Photo Editor'
-							description='Developed a feature-rich photo editing tool using React.js, offering real-time adjustments with an intuitive UI. Supports a wide range of filters, including brightness, contrast, saturation, and advanced color effects. Users can transform images with rotation, zoom, flipping, and perspective controls. Export options include multiple formats (PNG, JPEG, WebP, GIF) with adjustable quality settings. Designed for performance and user experience, ensuring smooth interactions and precise edits.'
-							ghLink='https://github.com/Zahooruddin-dev/Miz-Photo_Editor'
-							demoLink='https://miz-photo-editor.vercel.app/'
-						/>
-					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={crop}
-							isBlog={false}
-							title='Aspect Ratio Editor'
-							description=' Developed an image crop generator that provides users with a robust tool for cropping images. Implemented using JavaScript and modern web technologies, the tool offers intuitive cropping functionality with real-time previews. Features include adjustable crop areas, aspect ratio settings, and dynamic resizing. Enhanced user experience with responsive design and smooth performance, ensuring effective image editing across various devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Crop-Image'
-							demoLink='https://crop-image-flax.vercel.app/'
-						/>
-					</Col> */}
-					{/* <Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={gem}
-							isBlog={false}
-							title='G E M I N I'
-							description='
-								GEMINI Clone is a React-based web app that simulates content generation using the Gemini API. With secure authentication and a login page, users can generate text, view recent responses, and save results locally for easy access. The app offers a seamless and responsive user experience across devices. Deployed on Vercel for reliability, GEMINI Clone efficiently handles real-time requests with robust error management and local storage integration, ensuring both performance and scalability.'
-							ghLink='https://github.com/Zahooruddin-dev/Gemini-React'
-							demoLink='https://mizukagemini.vercel.app/'
-						/>
-					</Col> */}
 				</Row>
 			</Container>
 		</Container>
