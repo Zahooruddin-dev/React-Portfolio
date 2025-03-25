@@ -12,8 +12,8 @@ function AboutCard() {
 						<span className='purple'> Zahooruddin Nizamani </span>
 						from <span className='purple'> Hyderabad, Pakistan.</span>
 						<br />
-						<br />I graduated high school with a focus on Computer Science and
-						have since immersed myself in Front-end Web Development with{' '}
+						<br />I graduated high school with a focus on Computer Science and Maths, 
+						and have since immersed myself in Front-end Web Development with{' '}
 						{'React'}.
 						<br />
 						<br />
