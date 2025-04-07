@@ -28,6 +28,8 @@ function AboutCard() {
 						</li>
 						<li className='about-activity'>
 							<ImPointRight /> Analyzing car weight distribution
+						</li><li className='about-activity'>
+							<ImPointRight /> Multi LLM AI Agent
 						</li>
 					</ul>
 
