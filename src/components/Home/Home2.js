@@ -89,7 +89,9 @@ function Home2() {
 								</a>
 							</li>
 
-							<li className='social-icons'>
+						{/* 
+						For Legal Reasongis, I have removed the LinkedIn link
+						<li className='social-icons'>
 								<a
 									href='https://www.linkedin.com/in/muhammad-zahooruddin-nizamani-844a58274/?originalSubdomain=pk'
 									target='_blank'
@@ -98,7 +100,7 @@ function Home2() {
 								>
 									<FaLinkedinIn />
 								</a>
-							</li>
+							</li> */}
 							<li className='social-icons'>
 								<a
 									href='https://www.instagram.com/zahooruddin18/'

@@ -26,6 +26,8 @@ function Footer() {
 								<AiFillGithub />
 							</a>
 						</li>
+						{/*
+						for legal reasons, I have removed the LinkedIn link
 						<li className='social-icons'>
 							<a
 								href='https://www.linkedin.com/in/zahooruddinmizuka/'
@@ -35,7 +37,7 @@ function Footer() {
 							>
 								<FaLinkedinIn />
 							</a>
-						</li>
+						</li> */}
 						<li className='social-icons'>
 							<a
 								href='https://www.instagram.com/zahooruddin18/'
