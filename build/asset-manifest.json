@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1e85954c.css",
-    "main.js": "/static/js/main.11e14ebb.js",
+    "main.js": "/static/js/main.a2cd7c64.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cv.pdf": "/static/media/cv.7a8163421ed2147417d8.pdf",
     "static/media/wiki.png": "/static/media/wiki.6e7d465c75e9d5090ece.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/foramexperts.jpg": "/static/media/foramexperts.5734afe17a0bbf42a6df.jpg",
-    "static/media/Resume.pdf.pdf": "/static/media/Resume.pdf.8d5abd9302cb6089d950.pdf",
     "static/media/mizuka-types.png": "/static/media/mizuka-types.fbaf20414c82d1a37da7.png",
     "static/media/resturant.jpg": "/static/media/resturant.404768c70a8c49e04bc9.jpg",
     "static/media/aethos.jpg": "/static/media/aethos.5b0d7eec22c1f9516b43.jpg",
@@ -21,12 +21,12 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.1e85954c.css.map": "/static/css/main.1e85954c.css.map",
-    "main.11e14ebb.js.map": "/static/js/main.11e14ebb.js.map",
+    "main.a2cd7c64.js.map": "/static/js/main.a2cd7c64.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e85954c.css",
-    "static/js/main.11e14ebb.js"
+    "static/js/main.a2cd7c64.js"
   ]
 }
