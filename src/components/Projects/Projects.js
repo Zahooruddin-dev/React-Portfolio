@@ -8,9 +8,11 @@ import mizua from '../../Assets/Projects/mizua.jpg';
 import resturant from '../../Assets/Projects/resturant.jpg';
 import foam from '../../Assets/Projects/foramexperts.jpg';
 import dashboard from '../../Assets/Projects/dashboard.jpg';
+import hair from '../../Assets/Projects/hair.png';
 import Mizs from '../../Assets/Projects/mizscribe.jpg';
 import MultiLLm from '../../Assets/Projects/multillm.jpg';
 import wiki from '../../Assets/Projects/wiki.png';
+import emp from '../../Assets/Projects/emp.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
  function Projects() {
 	return (
@@ -29,7 +31,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={mizukatypes}
 							isBlog={false}
 							title='Mizuka Types '
-							description='Developed a Typing Web Application using ReactJS, featuring advanced functionality through Custom Hooks and Styled-components. Integrated persistent settings with Local Storage, allowing users to customize themes, access multiple game modes (word, sentence, free typing), and participate in timed challenges ranging from 15 to 90 seconds. Enhanced the user experience by adding Ultra-Zen Mode and Focused Mode for distraction-free typing sessions, ensuring a sleek, responsive design for all devices.'
+							description='A React-based typing application featuring multiple game modes, customizable themes, and persistent settings. Includes word, sentence, and free typing modes with timed challenges from 15-90 seconds. Features Ultra-Zen Mode and Focused Mode for distraction-free practice, all wrapped in a responsive design.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
 						/>
@@ -39,7 +41,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={MultiLLm}
 							isBlog={false}
 							title='MULTI LLM AI ASSISTANT'
-							description='Built a cutting-edge AI assistant platform using React.js, allowing users to interact with multiple LLMs in one place. The system supports Meta Llama, DeepSeek, OpenAI, Gemini, Claude, Rogue, and many more, enabling seamless selection and comparison of responses from different AI models. Users can easily identify which LLM generated each response, ensuring transparency and flexibility. The platform is optimized for performance, featuring an intuitive UI, real-time updates, and a scalable architecture to handle diverse AI interactions efficiently.'
+							description='A comprehensive AI platform built with React.js that integrates multiple language models including Meta Llama, DeepSeek, OpenAI, Gemini, and Claude. Enables seamless model switching and response comparison with real-time updates and an intuitive interface.'
 							ghLink='https://github.com/Zahooruddin-dev/MULTI-LLM-CHATBOT'
 							/* 							demoLink='https://photographer-bay-alpha.vercel.app/'
 							 */
@@ -50,10 +52,21 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={Aethos}
 							isBlog={false}
 							title='Aethos (Fusion AI Model)'
-							description='Developed an innovative chat application that integrates advanced AI capabilities for enhanced user interaction. The platform leverages the Fusion AI model to provide intelligent, context-aware responses, ensuring a seamless and engaging chat experience. Implemented a robust translation feature to support multiple languages, enhancing accessibility for diverse users. The application features a user-friendly interface with a responsive design, allowing for intuitive navigation across devices. Utilized modern technologies such as React, Firebase for authentication, and various libraries for PDF generation and Markdown rendering, creating a comprehensive solution tailored for effective communication and collaboration. The project emphasizes performance, reliability, and user satisfaction, making it an ideal tool for content creators and users seeking interactive chat experiences.'
+							description='An advanced chat application powered by the Fusion AI model, featuring multilingual support and context-aware responses. Integrates Firebase authentication with PDF generation capabilities. Built with React for optimal performance and user experience across devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Aethos'
 							/* 							demoLink='https://clinet-portfolio.vercel.app/'
 							 */
+						/>
+					</Col>
+					
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={emp}
+							isBlog={false}
+							title='Emphatic Listner'
+							description='An AI-powered empathetic chat platform using React.js and Google Gemini API. Features voice input/output, sentiment analysis, and quick commands for summarization. Includes customizable presets and local storage for chat history persistence.'
+							ghLink='https://github.com/Zahooruddin-dev/Empathic-listener/tree/main'
+							demoLink='https://empathic-listener-liard.vercel.app/'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -61,7 +74,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={mizua}
 							isBlog={false}
 							title='M I Z U A'
-							description='Developed a dynamic landing page for Mizua Restaurant using React.js, emphasizing a user-friendly design and interactive features. The platform included a seamless table reservation system with a pop-up modal for booking, providing real-time table availability updates. The responsive design ensured an optimal user experience across devices, while leveraging React hooks and styled-components for maintainable, scalable code. The application offers an efficient, visually appealing solution for restaurant booking, with a clean layout, easy navigation, and accessible features tailored to customers needs.'
+							description='A modern restaurant landing page built with React.js, featuring an interactive table reservation system and real-time availability updates. Implements styled-components and React hooks for a responsive, user-friendly dining experience.'
 							ghLink='https://github.com/Zahooruddin-dev/mizua'
 							demoLink='https://mizua.vercel.app//'
 						/>
@@ -71,7 +84,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={foam}
 							isBlog={false}
 							title='Foam Experts'
-							description='Developed a comprehensive service and appointment booking platform using React.js, focusing on user-centric design and functionality. Features included dynamic service packages, seamless appointment scheduling, and an intuitive service home interface. Integrated responsive design principles, ensuring accessibility across all devices. Leveraged React hooks and styled-components for modular, maintainable code. Enhanced user experience with persistent settings, real-time updates, and streamlined navigation, delivering a sleek and efficient solution for service-based businesses.'
+							description='A service booking platform developed in React.js with dynamic package selection and appointment scheduling. Features a responsive design, real-time updates, and streamlined navigation for efficient service management.'
 							ghLink='https://github.com/Zahooruddin-dev/FoamexDetaliing'
 							demoLink='https://foamex-detaliing.vercel.app/'
 						/>
@@ -81,7 +94,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={photographer}
 							isBlog={false}
 							title='Photographer'
-							description='Developed a modern photographer portfolio and booking platform using React.js, emphasizing a visually appealing and user-friendly experience. Features included an interactive "About Me" section, a dynamic portfolio showcasing photography projects, and seamless "Contact Me" and "Hire Me" pages. Integrated responsive design principles to ensure the site is fully functional and visually appealing on all devices. Leveraged React hooks and styled-components to create modular and maintainable code. Enhanced user experience with intuitive navigation, persistent user preferences, and real-time appointment booking, delivering a polished and professional platform tailored for photographers.'
+							description='A photography portfolio and booking platform showcasing projects with seamless appointment scheduling. Built with React.js, featuring responsive design and interactive galleries. Includes contact forms and hiring options.'
 							ghLink='https://github.com/Zahooruddin-dev/Photographer'
 							demoLink='https://photographer-bay-alpha.vercel.app/'
 						/>
@@ -91,7 +104,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={Mizs}
 							isBlog={false}
 							title='MizScribe'
-							description='Developed a cutting-edge web-based transcription and translation app using ReactJS, featuring fully local AI-powered speech processing. Implemented web workers to run machine learning models directly in the browser, enabling real-time transcription and multilingual translation without external servers or APIs. Designed an intuitive recording and file upload system, allowing users to convert audio into text seamlessly. Ensured complete user privacy by keeping all processing on-device. Optimized React’s state management for efficient handling of audio data and dynamic interactions, delivering a fast, secure, and fully offline transcription experience.'
+							description='A browser-based transcription app using React.js and web workers for local AI processing. Supports real-time speech-to-text conversion and multilingual translation, ensuring complete privacy with offline functionality.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizscribe'
 							demoLink='https://mizscribe.vercel.app/'
 						/>
@@ -101,7 +114,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={wiki}
 							isBlog={false}
 							title='Wikipedia Simplified'
-							description='Developed a dynamic web application enabling users to search Wikipedia in multiple languages, including English, Spanish, French, German, Italian, Portuguese, Arabic, and Urdu. The application enhances the search experience with features such as autocomplete suggestions, search history, and popular search queries, ensuring a user-friendly and efficient interface for multilingual searches.'
+							description='A multilingual Wikipedia search application supporting eight languages. Features autocomplete suggestions, search history tracking, and popular queries display. Built with vanilla JavaScript for optimal performance.'
 							ghLink='https://github.com/Zahooruddin-dev/Wikipedia-search-JS-VANILA'
 							demoLink='https://wikipedia-search-js-vanila.vercel.app/'
 						/>
@@ -111,7 +124,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={dashboard}
 							isBlog={false}
 							title='Dashboard UI'
-							description='Built a sleek and modern Admin Dashboard using ReactJS and CSS, focusing on creating reusable components and intuitive design. Implemented key data management features using Reacts state and props, allowing for dynamic updates without the need for complex libraries. Designed the interface to be fully responsive, ensuring accessibility across devices. Emphasized a beginner-friendly approach while maintaining a professional and polished look through well-structured components and efficient CSS styling techniques.'
+							description='A modern admin dashboard built with React.js, featuring reusable components and responsive design. Implements state management for dynamic updates and clean CSS styling for professional presentation.'
 							ghLink='https://github.com/Zahooruddin-dev/Dashbaord-React'
 							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
@@ -121,9 +134,19 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							imgPath={resturant}
 							isBlog={false}
 							title='Walk the wok'
-							description='Crafted an interactive and visually appealing restaurant website for Walk the Wok, designed to enhance the online booking experience and showcase the unique dining ambiance. Built using JavaScript, the platform features a dynamic menu display, reservation options, and an engaging interface that immerses customers in the restaurants vibe. Focused on providing a seamless user experience, with intuitive navigation and responsive design, ensuring accessibility across all devices. Highlighted the brands identity by combining aesthetics with functionality, making it easy for customers to explore the offerings and secure their reservations effortlessly.'
+							description='An interactive restaurant website built with JavaScript, featuring dynamic menu displays and online reservations. Focuses on user experience with responsive design and intuitive navigation across all devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
 							demoLink='https://walkthewok.vercel.app/'
+						/>
+					</Col>	
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={hair}
+							isBlog={false}
+							title='Hair Stylist Booking ( Demo )'
+							description='A React-based salon booking system with calendar scheduling and simulated payments. Supports English and Romanian languages, featuring accessibility enhancements and mobile-first responsive design.'
+							ghLink='https://github.com/Zahooruddin-dev/Premium-Hair-Salon-V.2'
+							demoLink='https://premium-hair-salon-v-2.vercel.app/'
 						/>
 					</Col>
 				</Row>
