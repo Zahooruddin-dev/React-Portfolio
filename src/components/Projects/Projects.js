@@ -10,7 +10,7 @@ import foam from '../../Assets/Projects/foramexperts.jpg';
 import dashboard from '../../Assets/Projects/dashboard.jpg';
 import hair from '../../Assets/Projects/hair.png';
 import Mizs from '../../Assets/Projects/mizscribe.jpg';
-import MultiLLm from '../../Assets/Projects/multillm.jpg';
+import MultiLLm from '../../Assets/Projects/multllm.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import emp from '../../Assets/Projects/emp.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
@@ -44,7 +44,6 @@ function Projects() {
 							title='Quiz AI'
 							description='A SaaS quiz platform enabling teachers and students to create, share, and complete interactive quizzes. Teachers can upload text or PDFs to auto-generate MCQs, edit questions, and distribute online or as downloadable PDF/DOCX files. Features class sharing, instant grading, and a responsive design.'
 							demoLink='https://quiz-mizuka.vercel.app/dashboard'
-		
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
