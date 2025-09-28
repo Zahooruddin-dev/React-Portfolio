@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import Aethos from '../../Assets/Projects/aethos.jpg';
-import photographer from '../../Assets/Projects/photographer.jpg'; 
+import photographer from '../../Assets/Projects/photographer.jpg';
 import mizua from '../../Assets/Projects/mizua.jpg';
 import resturant from '../../Assets/Projects/resturant.jpg';
 import foam from '../../Assets/Projects/foramexperts.jpg';
@@ -14,7 +14,8 @@ import MultiLLm from '../../Assets/Projects/multillm.jpg';
 import wiki from '../../Assets/Projects/wiki.png';
 import emp from '../../Assets/Projects/emp.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
- function Projects() {
+import quizai from '../../Assets/Projects/quizai.webp';
+function Projects() {
 	return (
 		<Container fluid className='project-section'>
 			<Particle />
@@ -30,10 +31,20 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 						<ProjectCard
 							imgPath={mizukatypes}
 							isBlog={false}
-							title='Mizuka Types '
+							title='Mizuka Types'
 							description='A React-based typing application featuring multiple game modes, customizable themes, and persistent settings. Includes word, sentence, and free typing modes with timed challenges from 15-90 seconds. Features Ultra-Zen Mode and Focused Mode for distraction-free practice, all wrapped in a responsive design.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={quizai}
+							isBlog={false}
+							title='Quiz AI'
+							description='A SaaS quiz platform enabling teachers and students to create, share, and complete interactive quizzes. Teachers can upload text or PDFs to auto-generate MCQs, edit questions, and distribute online or as downloadable PDF/DOCX files. Features class sharing, instant grading, and a responsive design.'
+							demoLink='https://quiz-mizuka.vercel.app/dashboard'
+		
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -58,7 +69,6 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							 */
 						/>
 					</Col>
-					
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={emp}
@@ -138,7 +148,7 @@ import mizukatypes from '../../Assets/Projects/mizuka-types.png';
 							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
 							demoLink='https://walkthewok.vercel.app/'
 						/>
-					</Col>	
+					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={hair}
