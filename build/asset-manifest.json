@@ -1,34 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.1e85954c.css",
-    "main.js": "/static/js/main.6e366d52.js",
+    "main.js": "/static/js/main.b37ad5b3.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/emp.png": "/static/media/emp.4557e708b1f61d92bf24.png",
     "static/media/cv.pdf": "/static/media/cv.7a8163421ed2147417d8.pdf",
+    "static/media/multllm.png": "/static/media/multllm.924d52d4d1e1d5d483f9.png",
     "static/media/hair.png": "/static/media/hair.c959843095424ff0a41d.png",
+    "static/media/aethos.png": "/static/media/aethos.2611193dc636517b111e.png",
     "static/media/wiki.png": "/static/media/wiki.6e7d465c75e9d5090ece.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/mizuka-types.png": "/static/media/mizuka-types.266795685569870dcd38.png",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/foramexperts.jpg": "/static/media/foramexperts.5734afe17a0bbf42a6df.jpg",
-    "static/media/mizuka-types.png": "/static/media/mizuka-types.fbaf20414c82d1a37da7.png",
+    "static/media/quizai.webp": "/static/media/quizai.c6da8aeb6d0b3e169ba1.webp",
     "static/media/resturant.jpg": "/static/media/resturant.404768c70a8c49e04bc9.jpg",
-    "static/media/aethos.jpg": "/static/media/aethos.5b0d7eec22c1f9516b43.jpg",
-    "static/media/multillm.jpg": "/static/media/multillm.9b49ecc7b3bbdb635850.jpg",
-    "static/media/emp.png": "/static/media/emp.f41b9438123c9a3e787f.png",
     "static/media/dashboard.jpg": "/static/media/dashboard.a40a28cc3b34bd3fd769.jpg",
     "static/media/mizua.jpg": "/static/media/mizua.f79eea5a2c2d1f478819.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/photographer.jpg": "/static/media/photographer.773424c2aac2780a694b.jpg",
-    "static/media/avatarme2.svg": "/static/media/avatarme2.d9da3e2c4824fd6604fe1197024ef289.svg",
     "index.html": "/index.html",
+    "static/media/avatarme2.svg": "/static/media/avatarme2.d9da3e2c4824fd6604fe1197024ef289.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.1e85954c.css.map": "/static/css/main.1e85954c.css.map",
-    "main.6e366d52.js.map": "/static/js/main.6e366d52.js.map",
+    "main.b37ad5b3.js.map": "/static/js/main.b37ad5b3.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e85954c.css",
-    "static/js/main.6e366d52.js"
+    "static/js/main.b37ad5b3.js"
   ]
 }
