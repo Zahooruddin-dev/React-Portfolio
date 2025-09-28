@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import Aethos from '../../Assets/Projects/aethos.jpg';
+import Aethos from '../../Assets/Projects/aethos.png';
 import photographer from '../../Assets/Projects/photographer.jpg';
 import mizua from '../../Assets/Projects/mizua.jpg';
 import resturant from '../../Assets/Projects/resturant.jpg';
@@ -32,7 +32,7 @@ function Projects() {
 							imgPath={mizukatypes}
 							isBlog={false}
 							title='Mizuka Types'
-							description='A React-based typing application featuring multiple game modes, customizable themes, and persistent settings. Includes word, sentence, and free typing modes with timed challenges from 15-90 seconds. Features Ultra-Zen Mode and Focused Mode for distraction-free practice, all wrapped in a responsive design.'
+							description='A React-based typing application designed to improve speed and accuracy through engaging practice modes and customizable experiences. It offers word, sentence, and free typing challenges with adjustable timers from 15–90 seconds, alongside Ultra-Zen and Focused Modes for distraction-free training. Users can personalize themes, track progress with persistent local settings, and enjoy a fully responsive design that adapts across devices. Built to combine productivity and fun, Mizuka Types supports both casual learners and serious typists seeking improvement.'
 							ghLink='https://github.com/Zahooruddin-dev/Mizuka-Typing-2.0'
 							demoLink='https://mizuka-types-2-0.vercel.app/'
 						/>
@@ -51,10 +51,8 @@ function Projects() {
 							imgPath={MultiLLm}
 							isBlog={false}
 							title='MULTI LLM AI ASSISTANT'
-							description='A comprehensive AI platform built with React.js that integrates multiple language models including Meta Llama, DeepSeek, OpenAI, Gemini, and Claude. Enables seamless model switching and response comparison with real-time updates and an intuitive interface.'
+							description='An AI platform built with React that seamlessly integrates multiple leading language models, including DeepSeek, OpenAI, Gemini, and Claude. Users can effortlessly switch between models, compare responses side by side, and analyze outputs in real time for greater insight. The system is designed with an intuitive interface, live updates, and a flexible architecture that supports experimentation, productivity, and research use cases. Built for developers, students, and AI enthusiasts alike, it provides a powerful environment to explore strengths of diverse LLMs.'
 							ghLink='https://github.com/Zahooruddin-dev/MULTI-LLM-CHATBOT'
-							/* 							demoLink='https://photographer-bay-alpha.vercel.app/'
-							 */
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
