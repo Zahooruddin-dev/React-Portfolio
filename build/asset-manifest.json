@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e85954c.css",
-    "main.js": "/static/js/main.b37ad5b3.js",
+    "main.js": "/static/js/main.c24ac758.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/emp.png": "/static/media/emp.4557e708b1f61d92bf24.png",
@@ -17,19 +17,19 @@
     "static/media/quizai.webp": "/static/media/quizai.c6da8aeb6d0b3e169ba1.webp",
     "static/media/resturant.jpg": "/static/media/resturant.404768c70a8c49e04bc9.jpg",
     "static/media/dashboard.jpg": "/static/media/dashboard.a40a28cc3b34bd3fd769.jpg",
-    "static/media/mizua.jpg": "/static/media/mizua.f79eea5a2c2d1f478819.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/mizua.jpg": "/static/media/mizua.ffdf42e415098ec7f6f8.jpg",
     "static/media/photographer.jpg": "/static/media/photographer.773424c2aac2780a694b.jpg",
     "index.html": "/index.html",
     "static/media/avatarme2.svg": "/static/media/avatarme2.d9da3e2c4824fd6604fe1197024ef289.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.1e85954c.css.map": "/static/css/main.1e85954c.css.map",
-    "main.b37ad5b3.js.map": "/static/js/main.b37ad5b3.js.map",
+    "main.c24ac758.js.map": "/static/js/main.c24ac758.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e85954c.css",
-    "static/js/main.b37ad5b3.js"
+    "static/js/main.c24ac758.js"
   ]
 }
