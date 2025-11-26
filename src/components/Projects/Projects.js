@@ -73,8 +73,9 @@ function Projects() {
 							title='Emphatic Listner'
 							description='An AI-powered empathetic chat platform using React.js and Google Gemini API. Features voice input/output, sentiment analysis, and quick commands for summarization. Includes customizable presets and local storage for chat history persistence.'
 							ghLink='https://github.com/Zahooruddin-dev/Empathic-listener/tree/main'
-/* 							demoLink='https://empathic-listener-liard.vercel.app/'
- */						/>
+							/* 							demoLink='https://empathic-listener-liard.vercel.app/'
+							 */
+						/>
 					</Col>
 					<Col md={4} className='project-card'>
 						<ProjectCard
