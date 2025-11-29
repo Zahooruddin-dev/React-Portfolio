@@ -14,7 +14,8 @@ import MultiLLm from '../../Assets/Projects/multllm.png';
 import wiki from '../../Assets/Projects/wiki.png';
 import emp from '../../Assets/Projects/emp.png';
 import mizukatypes from '../../Assets/Projects/mizuka-types.png';
-import quizai from '../../Assets/Projects/quizai.webp';
+import legalMindPro from '../../Assets/Projects/poster.jpg';
+import quizai from '../../Assets/Projects/mizuka.jpg';
 function Projects() {
 	return (
 		<Container fluid className='project-section'>
@@ -41,9 +42,19 @@ function Projects() {
 						<ProjectCard
 							imgPath={quizai}
 							isBlog={false}
-							title='Quiz AI'
-							description='A SaaS quiz platform enabling teachers and students to create, share, and complete interactive quizzes. Teachers can upload text or PDFs to auto-generate MCQs, edit questions, and distribute online or as downloadable PDF/DOCX files. Features class sharing, instant grading, and a responsive design.'
+							title='M i z u k a'
+							description='A B2B SaaS solution designed to help educators and institutions create, share, and manage interactive quizzes and assessments efficiently. Teachers can upload text, PDFs, or DOCX files to auto-generate multiple-choice, true/false, and short-answer questions, then edit and distribute them online or as downloadable files. The platform saves educators up to 70% of assessment preparation time and provides instant grading, class management, and detailed performance analytics. With a responsive design for desktop and mobile, it streamlines workflows, supports collaborative class sharing, and ensures a seamless assessment experience for both teachers and students.'
 							demoLink='https://quiz-mizuka.vercel.app/dashboard'
+						/>
+					</Col>
+					<Col md={4} className='project-card'>
+						<ProjectCard
+							imgPath={legalMindPro}
+							isBlog={false}
+							title='Legal Mind Pro'
+							description='Legal Mind Pro is an AI-powered legal assistant platform designed to streamline research, case analysis, and document management for lawyers, paralegals, and law students. Users can upload legal documents, contracts, or case files to automatically extract key clauses, generate summaries, and receive intelligent recommendations for relevant precedents. The platform also enables drafting of contracts and legal briefs, interactive Q&A on documents, collaborative workspaces, and secure cloud storage. With instant insights, responsive design, and intuitive organization features, Legal Mind Pro helps legal professionals save time, reduce manual work, and make more informed decisions.'
+							demoLink='https://legal-mind-pro-ten.vercel.app/'
+							ghLink='https://github.com/Zahooruddin-dev/Legal-Contract-Analyzer-AI'
 						/>
 					</Col>
 					<Col md={4} className='project-card'>
@@ -51,7 +62,7 @@ function Projects() {
 							imgPath={MultiLLm}
 							isBlog={false}
 							title='MULTI LLM AI ASSISTANT'
-							description='An AI platform built with React that seamlessly integrates multiple leading language models, including DeepSeek, OpenAI, Gemini, and Claude. Users can effortlessly switch between models, compare responses side by side, and analyze outputs in real time for greater insight. The system is designed with an intuitive interface, live updates, and a flexible architecture that supports experimentation, productivity, and research use cases. Built for developers, students, and AI enthusiasts alike, it provides a powerful environment to explore strengths of diverse LLMs.'
+							description='An AI assistant platform built with React that allows users to interact with multiple leading language models simultaneously, including DeepSeek, OpenAI, Gemini, and Claude. Users can switch between models, compare outputs side by side, and analyze results in real time. Designed with an intuitive interface and live updates, it supports experimentation, productivity, and research for developers, students, and AI enthusiasts.'
 							ghLink='https://github.com/Zahooruddin-dev/MULTI-LLM-CHATBOT'
 						/>
 					</Col>
@@ -60,7 +71,7 @@ function Projects() {
 							imgPath={Aethos}
 							isBlog={false}
 							title='Aethos (Fusion AI Model)'
-							description='An advanced chat application powered by the Fusion AI model, featuring multilingual support and context-aware responses. Integrates Firebase authentication with PDF generation capabilities. Built with React for optimal performance and user experience across devices.'
+							description='An advanced chat application powered by the Fusion AI model, featuring multilingual support and context-aware responses. Integrates Firebase authentication, PDF generation, and real-time message handling. Built with React for optimal performance and a seamless user experience across devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Aethos'
 							/* 							demoLink='https://clinet-portfolio.vercel.app/'
 							 */
@@ -71,7 +82,7 @@ function Projects() {
 							imgPath={emp}
 							isBlog={false}
 							title='Emphatic Listner'
-							description='An AI-powered empathetic chat platform using React.js and Google Gemini API. Features voice input/output, sentiment analysis, and quick commands for summarization. Includes customizable presets and local storage for chat history persistence.'
+							description='An AI-powered empathetic chat platform using React.js and Google Gemini API. Features voice input/output, sentiment analysis, and quick summarization commands. Includes customizable presets, local storage for chat history, and a responsive interface for consistent performance across devices.'
 							ghLink='https://github.com/Zahooruddin-dev/Empathic-listener/tree/main'
 							/* 							demoLink='https://empathic-listener-liard.vercel.app/'
 							 */
