@@ -5,7 +5,6 @@ import Particle from '../Particle';
 import Aethos from '../../Assets/Projects/aethos.png';
 import photographer from '../../Assets/Projects/photographer.jpg';
 import mizua from '../../Assets/Projects/mizua.jpg';
-import resturant from '../../Assets/Projects/resturant.jpg';
 import foam from '../../Assets/Projects/foramexperts.jpg';
 import dashboard from '../../Assets/Projects/dashboard.jpg';
 import hair from '../../Assets/Projects/hair.png';
