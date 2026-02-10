@@ -148,16 +148,7 @@ function Projects() {
 							demoLink='https://dashbaord-react-three.vercel.app/'
 						/>
 					</Col>
-					<Col md={4} className='project-card'>
-						<ProjectCard
-							imgPath={resturant}
-							isBlog={false}
-							title='Walk the wok'
-							description='An interactive restaurant website built with JavaScript, featuring dynamic menu displays and online reservations. Focuses on user experience with responsive design and intuitive navigation across all devices.'
-							ghLink='https://github.com/Zahooruddin-dev/Resturant-Walk-the-wok'
-							demoLink='https://walkthewok.vercel.app/'
-						/>
-					</Col>
+			
 					<Col md={4} className='project-card'>
 						<ProjectCard
 							imgPath={hair}
